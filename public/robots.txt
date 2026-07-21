@@ -1,0 +1,9 @@
+User-agent: *
+Allow: /
+
+# Block crawling of internal search and API routes
+Disallow: /search
+Disallow: /api/
+
+# Sitemap
+Sitemap: https://www.build-a-blue-lock-squad.wiki/sitemap.xml
