@@ -1,12 +1,593 @@
 {
+  "seo": {
+    "home": {
+      "title": "Wiki de Build A Blue Lock Squad - Códigos, Unidades & Guía",
+      "description": "Wiki de Build A Blue Lock Squad proporciona códigos de Roblox, guías de personajes, construcciones de equipo, clasificaciones y consejos de juego para ayudar a los jugadores a crear escuadras de fútbol más fuertes.",
+      "keywords": "Build A Blue Lock Squad, Roblox, códigos, personajes, lista de niveles, guía de escuadra",
+      "ogTitle": "Wiki de Build A Blue Lock Squad - Códigos, Unidades & Guía",
+      "ogDescription": "Wiki de Build A Blue Lock Squad proporciona códigos de Roblox, guías de personajes, construcciones de equipo, clasificaciones y consejos de juego para ayudar a los jugadores a crear escuadras de fútbol más fuertes.",
+      "twitterTitle": "Wiki de Build A Blue Lock Squad - Códigos, Unidades & Guía",
+      "twitterDescription": "Wiki de Build A Blue Lock Squad proporciona códigos de Roblox, guías de personajes, construcciones de equipo, clasificaciones y consejos de juego para ayudar a los jugadores a crear escuadras de fútbol más fuertes."
+    }
+  },
   "nav": {
     "codes": "Códigos",
     "guide": "Guía",
     "players": "Jugadores",
     "team": "Equipo",
-    "gameplay": "Jugabilidad",
+    "gameplay": "Juego",
     "rewards": "Recompensas",
     "updates": "Actualizaciones",
     "discord": "Discord"
+  },
+  "common": {
+    "home": "Inicio",
+    "more": "Más",
+    "playNow": "Juega en Roblox",
+    "switchLanguage": "Cambiar Idioma",
+    "switchTheme": "Cambiar Tema",
+    "lightMode": "Modo Claro",
+    "darkMode": "Modo Oscuro",
+    "notFound": "Página No Encontrada",
+    "notFoundDescription": "La página que está buscando no existe.",
+    "backToHome": "Volver al Inicio",
+    "relatedArticles": "Artículos Relacionados",
+    "readMore": "Leer Más",
+    "articlesComingSoon": "Artículos pronto"
+  },
+  "hero": {
+    "badge": "Simulador de Construcción de Escuadras de Fútbol de Roblox",
+    "title": "Wiki de Build A Blue Lock Squad",
+    "description": "Build a Blue Lock Squad es un juego de Roblox de construcción de equipo de fútbol donde los jugadores recogen personajes poderosos, crean escuadras competitivas, mejoran las habilidades de los jugadores y desafían a los oponentes con formaciones y habilidades estratégicas.",
+    "getFreeCodesCTA": "Obtén Códigos Gratis",
+    "playOnSteamCTA": "Juega en Roblox",
+    "stats": {
+      "stat1": {
+        "value": "200+",
+        "label": "Personajes Disponibles"
+      },
+      "stat2": {
+        "value": "Gratis",
+        "label": "para Jugar en Roblox"
+      },
+      "stat3": {
+        "value": "Diariamente",
+        "label": "Códigos & Recompensas"
+      },
+      "stat4": {
+        "value": "PvP",
+        "label": "Modo de Duelos"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Gameplay de Construir un Escuadrón de Blue Lock",
+    "description": "Recoge personajes poderosos de Blue Lock, construye escuadrones de fútbol competitivos y domina los partidos en este juego de construcción de escuadrones de Roblox."
+  },
+  "tools": {
+    "title": "Construir un Escuadrón de Blue Lock",
+    "titleHighlight": "Recursos",
+    "subtitle": "Todo lo que necesitas para dominar Construir un Escuadrón de Blue Lock — códigos, guías, listas de niveles y estrategias.",
+    "cards": [
+      {
+        "icon": "Descargar",
+        "title": "Códigos de Construir un Escuadrón de Blue Lock",
+        "description": "Últimos códigos, recompensas gratuitas, giros y rerolls"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Guía para Principiantes de Construir un Escuadrón de Blue Lock",
+        "description": "Creación de escuadrón, reclutamiento y progreso temprano"
+      },
+      {
+        "icon": "Estrella",
+        "title": "Lista de Niveles de Jugadores de Construir un Escuadrón de Blue Lock",
+        "description": "Clasificaciones de nivel S y A de los jugadores más fuertes"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Guía de Gameplay de Construir un Escuadrón de Blue Lock",
+        "description": "Partidos, puntuación, construcción de equipo y habilidades"
+      },
+      {
+        "icon": "Usuarios",
+        "title": "Guía de Jugadores de Construir un Escuadrón de Blue Lock",
+        "description": "Posiciones de jugadores, estilos de juego y fortalezas"
+      },
+      {
+        "icon": "Teclado",
+        "title": "Guía de Controles de Construir un Escuadrón de Blue Lock",
+        "description": "Movimiento, disparo, pase y entradas de defensa"
+      },
+      {
+        "icon": "Reloj",
+        "title": "Actualizaciones y Noticias de Construir un Escuadrón de Blue Lock",
+        "description": "Nuevo contenido, cambios de equilibrio y eventos"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Consejos y Trucos de Construir un Escuadrón de Blue Lock",
+        "description": "Estrategia, gestión de recursos y tácticas de partido"
+      }
+    ]
+  },
+  "modules": {
+    "blueLockSquadCodes": {
+      "title": "Códigos de Construir un Escuadrón de Blue Lock",
+      "eyebrow": "Recompensas gratuitas",
+      "intro": "Canjea los últimos códigos de Construir un Escuadrón de Blue Lock para reclamar giros gratuitos, rerolls, monedas y aumentos de progreso. Los nuevos códigos llegan junto con las actualizaciones del juego y eventos especiales, así que consulta regularmente para obtener recompensas frescas.",
+      "items": [
+        {
+          "title": "Últimos Códigos Activos",
+          "reward": "Giros gratuitos, rerolls y monedas",
+          "status": "Actualizado con cada actualización del juego"
+        },
+        {
+          "title": "Códigos de Evento",
+          "reward": "Recompensas y artículos exclusivos de tiempo limitado",
+          "status": "Lanzados durante eventos estacionales"
+        },
+        {
+          "title": "Códigos de hito",
+          "reward": "Premios bonus celebrando hitos comunitarios",
+          "status": "Caído cuando se alcanzan los goles"
+        }
+      ],
+      "redeemSteps": [
+        {
+          "title": "Abre Build a Blue Lock Squad",
+          "description": "Lanza el juego en Roblox desde tu biblioteca."
+        },
+        {
+          "title": "Encuentra la opción de canjear códigos",
+          "description": "Abre el menú del juego y localiza la sección de códigos o configuraciones."
+        },
+        {
+          "title": "Ingresa tu código",
+          "description": "Escribe o pega un código válido exactamente como se muestra."
+        },
+        {
+          "title": "Reclama tus recompensas",
+          "description": "Confirma para recibir instantáneamente tus giros gratuitos, monedas y artículos."
+        }
+      ]
+    },
+    "blueLockSquadBeginnerGuide": {
+      "title": "Guía para principiantes de Build a Blue Lock Squad",
+      "eyebrow": "Guía de inicio",
+      "intro": "¿Nuevo en Build a Blue Lock Squad? Esta guía de inicio te guía a través del ciclo de juego básico, desde la creación de tu primer equipo hasta ganar partidos y mejorar tu equipo para competencias de alto nivel.",
+      "steps": [
+        {
+          "title": "Crea tu equipo",
+          "description": "Comienza coleccionando y seleccionando tus primeros jugadores de Blue Lock para formar un equipo de fútbol."
+        },
+        {
+          "title": "Recluta jugadores mejores",
+          "description": "Usa los sistemas de reclutamiento para agregar delanteros, mediocampistas y defensas más fuertes a tu plantilla."
+        },
+        {
+          "title": "Juega partidos",
+          "description": "Practica ataques, defensas, pases y goles para afinar el rendimiento de tu equipo."
+        },
+        {
+          "title": "Mejora tu equipo",
+          "description": "Mejora a tus jugadores más fuertes y optimiza tu formación para competencias de alto nivel."
+        }
+      ],
+      "quickTips": [
+        "Reclama códigos gratuitos temprano para giros bonus y recursos.",
+        "Centra las mejoras en unos pocos jugadores fuertes en lugar de distribuir recursos de manera escasa.",
+        "Equilibra tu equipo con diferentes estilos de juego y posiciones.",
+        "Practica el tiempo de los partidos para mejorar la precisión de los tiros y pases."
+      ]
+    },
+    "blueLockSquadPlayersTierList": {
+      "title": "Lista de Niveles de Jugadores de Build a Blue Lock Squad",
+      "eyebrow": "Clasificaciones de jugadores",
+      "intro": "Compara a los jugadores más fuertes de Blue Lock clasificados por habilidades, impacto en los partidos y utilidad general. Usa esta lista de niveles para decidir qué jugadores valen la pena mejorar y construir alrededor.",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "Nivel Superior",
+          "players": [
+            {
+              "name": "Isagi Yoichi",
+              "role": "Delantero",
+              "strength": "Visión de campo y creación de goles"
+            },
+            {
+              "name": "Rin Itoshi",
+              "role": "Delantero",
+              "strength": "Scoring elite y estilo de juego competitivo"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "Nivel Fuerte",
+          "players": [
+            {
+              "name": "Bachira Meguru",
+              "role": "Delantero",
+              "strength": "Técnicas de dribble y ataque creativo"
+            },
+            {
+              "name": "Nagi Seishiro",
+              "role": "Delantero",
+              "strength": "Control técnico y finalización"
+            }
+          ]
+        }
+      ]
+    },
+    "blueLockSquadGameplayGuide": {
+      "title": "Guía de juego de Build a Blue Lock Squad",
+      "eyebrow": "Jugabilidad",
+      "intro": "Dominar los sistemas fundamentales de Build a Blue Lock Squad, desde la mecánica de los partidos y la puntuación hasta la construcción del equipo, las habilidades del jugador y el progreso a largo plazo.",
+      "cards": [
+        {
+          "title": "Sistema de partidos",
+          "description": "Aprende cómo funcionan los partidos de fútbol, incluyendo las oportunidades de ataque, defensa y puntuación."
+        },
+        {
+          "title": "Construcción de equipo",
+          "description": "Construye escuadras equilibradas combinando diferentes habilidades y roles de jugadores."
+        },
+        {
+          "title": "Habilidades del jugador",
+          "description": "Usa habilidades únicas de jugadores y estilos de juego para obtener ventajas durante los partidos."
+        },
+        {
+          "title": "Progreso",
+          "description": "Haz crecer a tu escuadra mediante actualizaciones, recompensas y juego continuo."
+        }
+      ]
+    },
+    "blueLockSquadPlayersGuide": {
+      "title": "Guía de jugadores de Build a Blue Lock Squad",
+      "eyebrow": "Base de datos de jugadores",
+      "intro": "Explora los personajes jugables de Blue Lock, sus posiciones, estilos de juego y fortalezas. Compara jugadores para construir escuadras más fuertes y equilibradas para cada situación de partido.",
+      "columns": {
+        "player": "Jugador",
+        "position": "Posición",
+        "playstyle": "Estilo de juego",
+        "strength": "Fortaleza"
+      },
+      "players": [
+        {
+          "player": "Yoichi Isagi",
+          "position": "Delantero",
+          "playstyle": "Visión de juego y ataque táctico",
+          "strength": "Leer el campo y crear oportunidades de puntuación"
+        },
+        {
+          "player": "Rin Itoshi",
+          "position": "Delantero",
+          "playstyle": "Delantero técnico",
+          "strength": "Tiro preciso y control avanzado"
+        },
+        {
+          "player": "Meguru Bachira",
+          "position": "Delantero",
+          "playstyle": "Driblador creativo",
+          "strength": "Control del balón y ataques uno contra uno"
+        },
+        {
+          "player": "Seishiro Nagi",
+          "position": "Delantero",
+          "playstyle": "Finalizador basado en habilidades",
+          "strength": "Control y finalización excepcionales"
+        },
+        {
+          "player": "Shoei Barou",
+          "position": "Delantero",
+          "playstyle": "Delantero poderoso",
+          "strength": "Táctica de ataque agresivo y presión sobre el gol"
+        }
+      ]
+    },
+    "blueLockSquadControlsGuide": {
+      "title": "Guía de Controles de Build a Blue Lock Squad",
+      "eyebrow": "Guía de Controles",
+      "intro": "Aprende los controles esenciales de Build a Blue Lock Squad para movimiento, disparo, pase y acciones defensivas. Dominar estos inputs te ayuda a reaccionar más rápido y a rendir mejor durante los partidos.",
+      "columns": {
+        "action": "Acción",
+        "key": "Tecla",
+        "description": "Descripción"
+      },
+      "controls": [
+        {
+          "action": "Movimiento",
+          "key": "W A S D",
+          "description": "Mueve a tu personaje por el campo"
+        },
+        {
+          "action": "Salto",
+          "key": "Espacio",
+          "description": "Realiza saltos y acciones de movimiento"
+        },
+        {
+          "action": "Control de Cámara",
+          "key": "Ratón",
+          "description": "Ajusta la dirección de vista durante el juego"
+        },
+        {
+          "action": "Carrera",
+          "key": "Mayúsculas",
+          "description": "Mueve más rápido al perseguir o atacar"
+        },
+        {
+          "action": "Acciones de Habilidad",
+          "key": "Habilidades de Teclado",
+          "description": "Activa las habilidades disponibles del jugador durante los partidos"
+        }
+      ]
+    },
+    "blueLockSquadUpdateAndNews": {
+      "title": "Actualizaciones y Noticias de Build a Blue Lock Squad",
+      "eyebrow": "Últimas Actualizaciones",
+      "intro": "Mantente informado sobre nuevos contenido, cambios en el juego, eventos y anuncios del desarrollador para Build a Blue Lock Squad. Sigue actualizaciones que afectan la construcción de escuadrones, habilidades del jugador y recompensas.",
+      "items": [
+        {
+          "title": "Adiciones de Nuevo Jugador",
+          "description": "Sigue los nuevos personajes de Blue Lock y las nuevas opciones de escuadrón añadidas a la lista."
+        },
+        {
+          "title": "Cambios en el Equilibrio del Juego",
+          "description": "Revisa ajustes que afectan las habilidades del jugador, el equilibrio del partido y el rendimiento general."
+        },
+        {
+          "title": "Eventos Limitados",
+          "description": "Sigue eventos especiales, recompensas exclusivas y contenido de juego temporal."
+        },
+        {
+          "title": "Anuncios del Desarrollador",
+          "description": "Revisa mensajes importantes sobre mejoras futuras, características y cambios en el juego."
+        }
+      ]
+    },
+    "blueLockSquadTipsAndTricks": {
+      "title": "Consejos y Trucos de Build a Blue Lock Squad",
+      "eyebrow": "Guía de Estrategia",
+      "intro": "Mejora tu rendimiento en Build a Blue Lock Squad con mejor construcción de equipo, uso más inteligente de recursos y estrategias probadas para jugadores nuevos y experimentados.",
+      "cards": [
+        {
+          "title": "Construye en torno a Jugadores Fuertes",
+          "description": "Enfoca los recursos en jugadores que coinciden con tu estrategia de ataque o defensa preferida."
+        },
+        {
+          "title": "Aprende las Habilidades del Jugador",
+          "description": "Entiende las fortalezas de cada jugador para usar sus habilidades de manera efectiva durante los partidos."
+        },
+        {
+          "title": "Equilibra tu escuadrón.",
+          "description": "Crea equipos con diferentes estilos de juego en lugar de depender de un tipo de jugador."
+        },
+        {
+          "title": "Mejora de manera eficiente.",
+          "description": "Prioriza las mejoras útiles que mejoran el rendimiento general de tu equipo."
+        },
+        {
+          "title": "Practica el tiempo de los partidos.",
+          "description": "Mejora el tiro, el pase y la posición a través del juego repetido."
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "Preguntas frecuentes.",
+    "titleHighlight": "Preguntas.",
+    "subtitle": "Todo lo que necesitas saber sobre Build a Blue Lock Squad.",
+    "questions": [
+      {
+        "question": "¿Qué es Build a Blue Lock Squad?",
+        "answer": "Build a Blue Lock Squad es un juego de construcción de equipos de fútbol de Roblox donde puedes recopilar personajes poderosos de Blue Lock, formar escuadrones competitivos y desafiar a los oponentes con formaciones estratégicas y habilidades de jugadores."
+      },
+      {
+        "question": "¿Dónde puedo canjear códigos de Build a Blue Lock Squad?",
+        "answer": "Puedes canjear códigos de Build a Blue Lock Squad dentro del juego abriendo el menú, encontrando la opción de canje de códigos, ingresando un código válido y reclamando tus giros gratuitos, monedas y recompensas."
+      },
+      {
+        "question": "¿Qué jugadores son los mejores en Build a Blue Lock Squad?",
+        "answer": "Los jugadores de nivel superior de Build a Blue Lock Squad incluyen delanteros de alto impacto como Isagi Yoichi y Rin Itoshi. Consulta la Lista de Niveles de Jugadores para las clasificaciones de nivel S y A completas."
+      },
+      {
+        "question": "¿Cómo construyo un escuadrón fuerte en Build a Blue Lock Squad?",
+        "answer": "Enfoca los recursos en unos pocos jugadores fuertes, equilibra tu escuadrón con diferentes estilos de juego y mejora de manera eficiente. Las secciones Guía para Principiantes y Consejos y Trucos cubren estrategias de construcción de equipo probadas."
+      },
+      {
+        "question": "¿Es Build a Blue Lock Squad gratuito para jugar?",
+        "answer": "Sí. Build a Blue Lock Squad es gratuito para jugar en Roblox, con compras opcionales en el juego y códigos gratuitos para recursos adicionales."
+      },
+      {
+        "question": "¿Qué controles necesito para Build a Blue Lock Squad?",
+        "answer": "Build a Blue Lock Squad utiliza controles estándar de teclado y ratón: WASD para mover, Espacio para saltar, Mayús para correr a toda velocidad y el ratón para controlar la cámara. Ver la Guía de Controles para la referencia completa."
+      }
+    ]
+  },
+  "cta": {
+    "title": "¿Listo para construir tu Escuadrón Blue Lock?",
+    "description": "Recopila delanteros poderosos, construye el equipo de fútbol definitivo y domina los partidos. Obtén los últimos códigos, listas de niveles y guías de escuadrón para Build a Blue Lock Squad.",
+    "joinCommunity": "Juega en Roblox",
+    "joinGame": "Visita Roblox"
+  },
+  "footer": {
+    "title": "Wiki de Build A Blue Lock Squad",
+    "description": "Tu centro de recursos completo para códigos de Build A Blue Lock Squad, personajes, listas de niveles, construcciones de escuadrón y guías de juego.",
+    "resources": "Recursos",
+    "community": "Comunidad",
+    "legal": "Legal",
+    "discord": "Juega en Roblox",
+    "twitter": "Roblox",
+    "steamCommunity": "Noticias de Roblox",
+    "steamStore": "Soporte de Roblox",
+    "about": "Acerca de",
+    "privacy": "Política de Privacidad",
+    "terms": "Términos de Servicio",
+    "copyrightNotice": "Derechos de Autor",
+    "copyright": "© 2026 Wiki de Build A Blue Lock Squad. No está afiliado con los desarrolladores de Build A Blue Lock Squad ni con Roblox Corporation.",
+    "disclaimer": "Sitio web de recursos fanmade no oficial."
+  },
+  "pages": {
+    "codes": {
+      "title": "Códigos de Build a Blue Lock Squad",
+      "description": "Últimos códigos funcionales de Build a Blue Lock Squad para recompensas gratuitas, potenciadores y artículos exclusivos. Actualizados diariamente con códigos verificados.",
+      "metaTitle": "Códigos de Build a Blue Lock Squad - Recompensas gratuitas y potenciadores",
+      "metaDescription": "Reclama los últimos códigos de Build a Blue Lock Squad para recompensas gratuitas, potenciadores y artículos exclusivos. Actualizados diariamente con códigos funcionales verificados.",
+      "categoryLabel": "CANJEAR CÓDIGOS",
+      "whatIs": "¿Qué son los códigos?",
+      "whatIsDescription": "Los códigos son cadenas canjeadas por los desarrolladores que otorgan recursos gratuitos como moneda, potenciadores y artículos exclusivos, ayudándote a construir un equipo de fútbol más fuerte más rápido.",
+      "why": "¿Por qué canjear códigos?",
+      "whySteps": {
+        "step1Title": "Recursos gratuitos",
+        "step1Description": "Obtén moneda, potenciadores y artículos sin gastar Robux",
+        "step2Title": "Progresión más rápida",
+        "step2Description": "Canjear códigos para desbloquear jugadores de alto nivel y mejoras de entrenamiento rápidamente",
+        "step3Title": "Mantente actualizado",
+        "step3Description": "Nuevo códigos se lanzan durante actualizaciones, hitos y eventos festivos"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todos los códigos"
+    },
+    "guide": {
+      "title": "Guía de Build a Blue Lock Squad",
+      "description": "Guías completas de Build a Blue Lock Squad desde lo básico hasta estrategias avanzadas de equipo, cubriendo progreso, consejos y cómo jugar.",
+      "metaTitle": "Guía de Build a Blue Lock Squad - Estrategias desde principiante a avanzado",
+      "metaDescription": "Dominar Build a Blue Lock Squad con guías completas que cubren consejos de principiante, progreso, construcción de equipo y estrategias avanzadas para el constructor de equipos de fútbol de Roblox.",
+      "categoryLabel": "GUIAS DE JUEGO",
+      "whatIs": "¿Qué es la sección de guías?",
+      "whatIsDescription": "Guías completas que cubren cómo jugar, rutas de progreso y estrategias de equipo. Aprende todo desde los primeros pasos hasta técnicas avanzadas para construir equipos ganadores.",
+      "why": "¿Por qué leer guías?",
+      "whySteps": {
+        "step1Title": "Aprende los Mecánicos Básicos",
+        "step1Description": "Entiende el sistema de partidos y evita errores comunes de principiantes",
+        "step2Title": "Progresión rápida",
+        "step2Description": "Sigue rutas probadas para construir equipos más fuertes y ganar partidos",
+        "step3Title": "Dominar estrategias",
+        "step3Description": "Desarrolla tácticas avanzadas para la construcción de equipos y el juego competitivo"
+      },
+      "featured": "Destacado y esencial",
+      "all": "Todas las guías"
+    },
+    "players": {
+      "title": "Jugadores de Build a Blue Lock Squad",
+      "description": "Guías detalladas de jugadores de Build a Blue Lock Squad cubriendo personajes, rarezas, habilidades y estilos de juego para ayudarte a elegir los mejores delanteros, mediocampistas y defensas.",
+      "metaTitle": "Guía de Jugadores y Personajes de Build a Blue Lock Squad",
+      "metaDescription": "Explora jugadores y personajes de Build a Blue Lock Squad con guías detalladas sobre rarezas, habilidades y estilos de juego. Encuentra los mejores delanteros, mediocampistas y defensas para tu equipo.",
+      "categoryLabel": "JUGADORES",
+      "whatIs": "¿Quiénes son los jugadores?",
+      "whatIsDescription": "Los jugadores son los personajes de fútbol que coleccionas y despliegas en partidos. Cada uno tiene rarezas, habilidades y estilos de juego únicos que definen cómo se desempeñan en el campo.",
+      "why": "¿Por qué estudiar a los jugadores?",
+      "whySteps": {
+        "step1Title": "Conoce tu plantilla",
+        "step1Description": "Aprende cada rareza, habilidad y fortaleza de los personajes",
+        "step2Title": "Elige los roles adecuados",
+        "step2Description": "Ajusta delanteros, mediocampistas y defensas a tu estrategia",
+        "step3Title": "Construye plantillas más inteligentes",
+        "step3Description": "Combinar estilos de juego complementarios para equipos más fuertes"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los jugadores"
+    },
+    "team": {
+      "title": "Construye un equipo de Blue Lock Squad",
+      "description": "Guías de construcción de equipos de Blue Lock Squad que cubren las mejores plantillas, formaciones y configuraciones equilibradas para crear los equipos más fuertes y competitivos.",
+      "metaTitle": "Construye un equipo de Blue Lock Squad - Mejores plantillas y formaciones",
+      "metaDescription": "Construye los equipos más fuertes de Blue Lock Squad con guías sobre las mejores plantillas, formaciones y configuraciones equilibradas. Crea equipos competitivos para cada modo de partido.",
+      "categoryLabel": "CONSTRUCCIONES DE EQUIPOS",
+      "whatIs": "¿Qué es la construcción de equipos?",
+      "whatIsDescription": "Las guías de construcción de equipos muestran cómo combinar jugadores en poderosas plantillas utilizando las mejores formaciones, equilibrio de roles y sinergia para partidos competitivos.",
+      "why": "¿Por qué construir equipos?",
+      "whySteps": {
+        "step1Title": "Plantillas más fuertes",
+        "step1Description": "Descubre las mejores combinaciones de plantillas para cada modo de partido",
+        "step2Title": "Tácticas de formación",
+        "step2Description": "Aprende formaciones y configuraciones de posiciones que maximicen la sinergia",
+        "step3Title": "Plantillas equilibradas",
+        "step3Description": "Construye equipos que equilibren ataque, mediocampo y defensa"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los equipos"
+    },
+    "gameplay": {
+      "title": "Gameplay de Blue Lock Squad",
+      "description": "Guías de gameplay de Blue Lock Squad que cubren los mecanismos de partido, controles, habilidades, tácticas de fútbol y formaciones para ganar partidos.",
+      "metaTitle": "Gameplay de Blue Lock Squad - Mecánicas, Controles y Habilidades",
+      "metaDescription": "Dominar el gameplay de Blue Lock Squad con guías sobre los mecanismos de partido, controles, habilidades, tácticas de fútbol y formaciones. Aprende a ganar más partidos.",
+      "categoryLabel": "JUEGO",
+      "whatIs": "¿Qué es el Gameplay?",
+      "whatIsDescription": "Las guías de gameplay explican los mecanismos de partido, controles, habilidades y tácticas de fútbol que deciden los partidos. Aprende cómo funcionan las formaciones y habilidades en el campo.",
+      "why": "¿Por qué aprender gameplay?",
+      "whySteps": {
+        "step1Title": "Dominar los controles",
+        "step1Description": "Aprende los controles y mecanismos que impulsan cada partido",
+        "step2Title": "Usa habilidades sabiamente",
+        "step2Description": "Tiempo habilidades y habilidades para dominar a los oponentes",
+        "step3Title": "Aplica tácticas",
+        "step3Description": "Despliega formaciones y tácticas de fútbol que ganen partidos"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de Gameplay"
+    },
+    "rewards": {
+      "title": "Premios de Build a Blue Lock Squad",
+      "description": "Guías de premios de Build a Blue Lock Squad que cubren giros, rerolls, recursos gratuitos, bonos de inicio de sesión y premios de eventos con las mejores formas de ganarlos.",
+      "metaTitle": "Premios de Build a Blue Lock Squad - Giros, Rerolls & Recursos Gratuitos",
+      "metaDescription": "Gana más en Build a Blue Lock Squad con guías de premios sobre giros, rerolls, recursos gratuitos, bonos de inicio de sesión y premios de eventos. Maximiza cada recurso gratuito.",
+      "categoryLabel": "RECOMPENSAS",
+      "whatIs": "¿Qué son las Recompensas?",
+      "whatIsDescription": "Las guías de recompensas cubren giros, rerolls, recursos gratuitos, bonos de inicio de sesión y premios de eventos. Aprende de dónde vienen los recursos gratuitos y cómo usarlos sabiamente.",
+      "why": "¿Por qué rastrear recompensas?",
+      "whySteps": {
+        "step1Title": "Ganar Recursos más Rápido",
+        "step1Description": "Encuentra las mejores fuentes para giros, rerolls y artículos gratuitos",
+        "step2Title": "No Pierdas Eventos",
+        "step2Description": "Mantente al tanto de bonos de inicio de sesión y eventos de tiempo limitado",
+        "step3Title": "Gasta con Prudencia",
+        "step3Description": "Usa recursos gratuitos en las mejoras más importantes"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todos los Premios"
+    },
+    "updates": {
+      "title": "Actualizaciones de Build a Blue Lock Squad",
+      "description": "Últimas actualizaciones de Build a Blue Lock Squad que cubren notas de parche, nuevos personajes, nuevas habilidades, eventos y nuevos códigos lanzados con cada actualización.",
+      "metaTitle": "Actualizaciones de Build a Blue Lock Squad - Notas de Parche & Nuevo Contenido",
+      "metaDescription": "Rastrea las últimas actualizaciones de Build a Blue Lock Squad, incluyendo notas de parche, nuevos personajes, nuevas habilidades, eventos y nuevos códigos. Mantente actualizado con cada lanzamiento.",
+      "categoryLabel": "ACTUALIZACIONES",
+      "whatIs": "¿Qué son las Actualizaciones?",
+      "whatIsDescription": "Las actualizaciones cubren cambios de versión, notas de parche, nuevos personajes, nuevas habilidades, eventos y nuevos códigos. Mantente actualizado con lo que cada lanzamiento agrega al juego.",
+      "why": "¿Por qué seguir las actualizaciones?",
+      "whySteps": {
+        "step1Title": "Notas de Parche",
+        "step1Description": "Lee los cambios de versión y actualizaciones de equilibrio a medida que se lanzan",
+        "step2Title": "Nuevo Contenido",
+        "step2Description": "Descubre nuevos personajes, habilidades y eventos con cada actualización",
+        "step3Title": "Códigos Frescos",
+        "step3Description": "Atrapa nuevos códigos lanzados junto con las actualizaciones principales"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Actualizaciones"
+    },
+    "discord": {
+      "title": "Discord de Build a Blue Lock Squad",
+      "description": "Guías del Discord de Build a Blue Lock Squad y de la comunidad que cubren servidores oficiales, sorteos, anuncios y dónde encontrar códigos activos y noticias del desarrollador.",
+      "metaTitle": "Centro de Comunidad de Discord de Build a Blue Lock Squad & Comunidad",
+      "metaDescription": "Únete al Discord de Build a Blue Lock Squad y a la comunidad para servidores oficiales, sorteos, anuncios, códigos activos y las últimas noticias del desarrollador.",
+      "categoryLabel": "COMUNIDAD",
+      "whatIs": "¿Qué es el Discord?",
+      "whatIsDescription": "La sección de Discord y comunidad te guía a servidores oficiales, sorteos, anuncios y los mejores lugares para encontrar códigos activos y noticias del desarrollador.",
+      "why": "¿Por qué unirse a la comunidad?",
+      "whySteps": {
+        "step1Title": "Códigos Activos",
+        "step1Description": "Captura regalos de tiempo limitado y caídas de códigos secretos primero",
+        "step2Title": "Anuncios del Desarrollador",
+        "step2Description": "Sigue las noticias oficiales, eventos y horarios de actualizaciones",
+        "step3Title": "Comunidad de Jugadores",
+        "step3Description": "Comparte escuadras, estrategias y consejos con otros jugadores"
+      },
+      "featured": "Destacado y Esencial",
+      "all": "Todas las Guías de la Comunidad"
+    }
   }
 }

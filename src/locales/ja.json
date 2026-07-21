@@ -1,12 +1,593 @@
 {
+  "seo": {
+    "home": {
+      "title": "ブルーロックスquadビルドウィキ - コード、ユニット、ガイド",
+      "description": "ブルーロックスquadビルドウィキは、Robloxのコード、キャラクターガイド、チームビルド、ランク、ゲームプレイのヒントを提供し、プレイヤーが強いフットボールチームを作成するのを支援します。",
+      "keywords": "ブルーロックスquad、Roblox、コード、キャラクター、ランクリスト、チームガイド",
+      "ogTitle": "ブルーロックスquadビルドウィキ - コード、ユニット、ガイド",
+      "ogDescription": "ブルーロックスquadビルドウィキは、Robloxのコード、キャラクターガイド、チームビルド、ランク、ゲームプレイのヒントを提供し、プレイヤーが強いフットボールチームを作成するのを支援します。",
+      "twitterTitle": "ブルーロックスquadビルドウィキ - コード、ユニット、ガイド",
+      "twitterDescription": "ブルーロックスquadビルドウィキは、Robloxのコード、キャラクターガイド、チームビルド、ランク、ゲームプレイのヒントを提供し、プレイヤーが強いフットボールチームを作成するのを支援します。"
+    }
+  },
   "nav": {
     "codes": "コード",
     "guide": "ガイド",
-    "players": "選手",
+    "players": "プレイヤー",
     "team": "チーム",
     "gameplay": "ゲームプレイ",
-    "rewards": "報酬",
+    "rewards": "リワード",
     "updates": "アップデート",
     "discord": "Discord"
+  },
+  "common": {
+    "home": "ホーム",
+    "more": "もっと見る",
+    "playNow": "Robloxでプレイ",
+    "switchLanguage": "言語を切り替え",
+    "switchTheme": "テーマを切り替え",
+    "lightMode": "ライトモード",
+    "darkMode": "ダークモード",
+    "notFound": "ページが見つかりません",
+    "notFoundDescription": "ご希望のページは存在しません。",
+    "backToHome": "ホームに戻る",
+    "relatedArticles": "関連記事",
+    "readMore": "もっと読む",
+    "articlesComingSoon": "すぐに記事が登場"
+  },
+  "hero": {
+    "badge": "Robloxフットボールチームビルドシミュレータ",
+    "title": "Build A Blue Lock Squad Wiki",
+    "description": "ブルーロックスquadビルドは、プレイヤーが強力なキャラクターを収集し、競争力のあるチームを作成し、プレイヤーの能力を向上させ、戦略的な陣形とスキルで敵対者に挑戦するRobloxフットボールチームビルドゲームです。",
+    "getFreeCodesCTA": "無料コードをゲット",
+    "playOnSteamCTA": "Robloxでプレイ",
+    "stats": {
+      "stat1": {
+        "value": "200+",
+        "label": "利用可能なキャラクター"
+      },
+      "stat2": {
+        "value": "無料でRobloxでプレイ",
+        "label": "日次"
+      },
+      "stat3": {
+        "value": "コードとリワード",
+        "label": "PvP"
+      },
+      "stat4": {
+        "value": "PvP",
+        "label": "ドュエルモード"
+      }
+    }
+  },
+  "gameFeature": {
+    "title": "Build a Blue Lock Squad ゲームプレイ",
+    "description": "力強いブルーロックキャラクターを収集し、競争力のあるフットボールチームを作り、このRobloxのチームビルディングゲームでマッチをマスターする。"
+  },
+  "tools": {
+    "title": "ブルーロック・スクワッドを築こう",
+    "titleHighlight": "リソース",
+    "subtitle": "Build a Blue Lock Squadをマスターするために必要なすべてをここに揃えています - コード、ガイド、ティアリスト、戦略。",
+    "cards": [
+      {
+        "icon": "ダウンロード",
+        "title": "Build a Blue Lock Squad コード",
+        "description": "最新のコード、無料の報酬、スピン、リロール"
+      },
+      {
+        "icon": "BookOpen",
+        "title": "Build a Blue Lock Squad 新手ガイド",
+        "description": "スクアドの作成、採用、早期進行"
+      },
+      {
+        "icon": "スター",
+        "title": "Build a Blue Lock Squad プレイヤーティアリスト",
+        "description": "最強のプレイヤーのSとAティアランキング"
+      },
+      {
+        "icon": "Gamepad2",
+        "title": "Build a Blue Lock Squad ゲームプレイガイド",
+        "description": "マッチ、スコアリング、チームビルディング、能力"
+      },
+      {
+        "icon": "ユーザー",
+        "title": "Build a Blue Lock Squad プレイヤーガイド",
+        "description": "プレイヤーのポジション、プレースタイル、強み"
+      },
+      {
+        "icon": "キーボード",
+        "title": "Build a Blue Lock Squad コントロールガイド",
+        "description": "移動、シュート、パス、ディフェンス入力"
+      },
+      {
+        "icon": "クロック",
+        "title": "Build a Blue Lock Squad アップデートとニュース",
+        "description": "新しいコンテンツ、バランスの変更、イベント"
+      },
+      {
+        "icon": "TrendingUp",
+        "title": "Build a Blue Lock Squad チップとトリック",
+        "description": "戦略、リソース管理、マッチ戦術"
+      }
+    ]
+  },
+  "modules": {
+    "blueLockSquadCodes": {
+      "title": "Build a Blue Lock Squad コード",
+      "eyebrow": "無料報酬",
+      "intro": "最新のBuild a Blue Lock Squadのコードを利用して無料スピン、リロール、コイン、進行を引き出す。新しいコードはゲームアップデートと特別イベントとともに到着するので、定期的に新しい報酬をチェックしてください。",
+      "items": [
+        {
+          "title": "最新のアクティブコード",
+          "reward": "無料スピン、リロール、コイン",
+          "status": "毎回のゲームアップデートで更新"
+        },
+        {
+          "title": "イベントコード",
+          "reward": "独占の限定時間の報酬とアイテム",
+          "status": "季節イベント中にリリース"
+        },
+        {
+          "title": "メールストーンコード",
+          "reward": "コミュニティの節目を祝うボーナスリワード",
+          "status": "ゴールが達成されたときに落ちる"
+        }
+      ],
+      "redeemSteps": [
+        {
+          "title": "ブルーロック・スクワッドを構築するを開く",
+          "description": "ライブラリからRobloxでゲームを起動する"
+        },
+        {
+          "title": "コード交換オプションを見つける",
+          "description": "ゲーム内メニューを開き、コードや設定セクションを探す"
+        },
+        {
+          "title": "あなたのコードを入力する",
+          "description": "表示された通りに有効なコードを入力または貼り付ける"
+        },
+        {
+          "title": "ボーナスリワードを請求する",
+          "description": "無料スピン、コイン、アイテムをすぐに受け取るために確認する"
+        }
+      ]
+    },
+    "blueLockSquadBeginnerGuide": {
+      "title": "ブルーロック・スクワッド構築ガイドベーシック",
+      "eyebrow": "スタートガイド",
+      "intro": "ブルーロック・スクワッドに新しく加入しましたか？このスタートガイドは、最初のスクワッドの作成から勝利、チームのレベルアップ、ハイレベルの競争への準備までの基本的なゲームプレイループを説明します。",
+      "steps": [
+        {
+          "title": "あなたのスクワッドを作成する",
+          "description": "ブルーロック・スクワッドの最初のプレイヤーを集め、フットボール・スクワッドを形成するために選択を始めます。"
+        },
+        {
+          "title": "より良いプレイヤーを募集する",
+          "description": "募集システムを使用して、より強いフォワード、ミッドフィールダー、ディフェンダーをあなたのロースターに追加します。"
+        },
+        {
+          "title": "マッチをプレイする",
+          "description": "攻撃、防衛、パス、スコアを練習して、スクワッドのパフォーマンスを鍛えます。"
+        },
+        {
+          "title": "チームをアップグレードする",
+          "description": "最も強いプレイヤーを改善し、ハイタッパーの競争に向けたラインアップを最適化します。"
+        }
+      ],
+      "quickTips": [
+        "ボーナススピンとリソースのために無料コードを早めに請求する",
+        "資源を薄く広げる代わりに、数名の強力なプレイヤーに集中してアップグレードする",
+        "異なるプレイスタイルとポジションでスクワッドをバランス良くします。",
+        "シューティングとパスの精度を向上させるためにマッチタイミングを練習します。"
+      ]
+    },
+    "blueLockSquadPlayersTierList": {
+      "title": "ブルーロック・スクワッドプレイヤータイアリスト",
+      "eyebrow": "プレイヤーランキング",
+      "intro": "能力、マッチの影響、全体の有用性に基づいてランクされた最強のブルーロック・プレイヤーを比較します。このタイアリストを使用して、どのプレイヤーがアップグレードし、構築する価値があるかを決定します。",
+      "tiers": [
+        {
+          "tier": "S",
+          "label": "トップティア",
+          "players": [
+            {
+              "name": "Isagi Yoichi",
+              "role": "フォワード",
+              "strength": "フィールドビジョンとゴールの作成"
+            },
+            {
+              "name": "Rin Itoshi",
+              "role": "フォワード",
+              "strength": "エリートスコアリングと競争的なプレースタイル"
+            }
+          ]
+        },
+        {
+          "tier": "A",
+          "label": "強力ティア",
+          "players": [
+            {
+              "name": "Bachira Meguru",
+              "role": "フォワード",
+              "strength": "ドリブルと創造的な攻撃"
+            },
+            {
+              "name": "Nagi Seishiro",
+              "role": "前線",
+              "strength": "技術的なコントロールとフィニッシュ"
+            }
+          ]
+        }
+      ]
+    },
+    "blueLockSquadGameplayGuide": {
+      "title": "ブルーロック・スクワッドのゲームプレイガイド",
+      "eyebrow": "ゲームプレイ",
+      "intro": "ブルーロック・スクワッドの核心システムをマスターしましょう、試合メカニクスとスコアリングからチーム構築、プレイヤーの能力、長期的な進歩に至ります。",
+      "cards": [
+        {
+          "title": "試合システム",
+          "description": "足球試合の仕組みを学びましょう、攻撃のチャンス、ディフェンス、スコアリングを含みます。"
+        },
+        {
+          "title": "チーム構築",
+          "description": "異なるプレイヤーの強みと役割を組み合わせてバランスの取れたチームを作成します。"
+        },
+        {
+          "title": "プレイヤーの能力",
+          "description": "独特のプレイヤースキルとプレースタイルを使用して試合中に利点を獲得します。"
+        },
+        {
+          "title": "進歩",
+          "description": "アップグレード、リワード、継続的なゲームプレイを通じてチームを成長させます。"
+        }
+      ]
+    },
+    "blueLockSquadPlayersGuide": {
+      "title": "ブルーロック・スクワッドプレイヤーガイド",
+      "eyebrow": "プレイヤーデータベース",
+      "intro": "プレイ可能なブルーロックキャラクター、そのポジション、プレースタイル、強みを探検しましょう。プレイヤーを比較して、試合の状況に応じてより強くてバランスの取れたチームを作成します。",
+      "columns": {
+        "player": "プレイヤー",
+        "position": "ポジション",
+        "playstyle": "プレースタイル",
+        "strength": "強み"
+      },
+      "players": [
+        {
+          "player": "Yoichi Isagi",
+          "position": "前線",
+          "playstyle": "ゲーム視覚と戦術的な攻撃",
+          "strength": "フィールドを読み解き、スコアリングチャンスを作り出す"
+        },
+        {
+          "player": "Rin Itoshi",
+          "position": "前線",
+          "playstyle": "技術的なストライカー",
+          "strength": "精度の高いシュートと高度なコントロール"
+        },
+        {
+          "player": "Meguru Bachira",
+          "position": "前線",
+          "playstyle": "創造的なドリブル者",
+          "strength": "ボールのコントロールとワン・オン・ワン攻撃"
+        },
+        {
+          "player": "Seishiro Nagi",
+          "position": "前線",
+          "playstyle": "スキルベースのフィニッシャー",
+          "strength": "並外れたコントロールとフィニッシュ"
+        },
+        {
+          "player": "Shoei Barou",
+          "position": "前線",
+          "playstyle": "パワーストライカー",
+          "strength": "進攻的な得点とゴールプレッシャー"
+        }
+      ]
+    },
+    "blueLockSquadControlsGuide": {
+      "title": "Build a Blue Lock Squad コントロールガイド",
+      "eyebrow": "コントロールガイド",
+      "intro": "動き、シュート、パス、守備行動のためのBuild a Blue Lock Squadの基本的なコントロールを学びましょう。これらの入力をマスターすることで、試合中により速く反応し、より良いパフォーマンスを発揮できます。",
+      "columns": {
+        "action": "アクション",
+        "key": "キー",
+        "description": "説明"
+      },
+      "controls": [
+        {
+          "action": "移動",
+          "key": "W A S D",
+          "description": "キャラクターをフィールド上で移動させる"
+        },
+        {
+          "action": "ジャンプ",
+          "key": "スペース",
+          "description": "ジャンプや移動アクションを行う"
+        },
+        {
+          "action": "カメラコントロール",
+          "key": "マウス",
+          "description": "ゲーム中に視点方向を調整する"
+        },
+        {
+          "action": "スプリント",
+          "key": "シフト",
+          "description": "追いかけたり攻撃したりする際により速く移動する"
+        },
+        {
+          "action": "アビリティアクション",
+          "key": "キーボードスキル",
+          "description": "試合中に利用可能なプレイヤーアビリティをアクティベートする"
+        }
+      ]
+    },
+    "blueLockSquadUpdateAndNews": {
+      "title": "Build a Blue Lock Squad 更新とニュース",
+      "eyebrow": "最新のアップデート",
+      "intro": "Build a Blue Lock Squadの新しいコンテンツ、ゲームの変更、イベント、開発者の発表について情報を得る。チーム構築、プレイヤーアビリティ、報酬に影響を与えるアップデートを追跡します。",
+      "items": [
+        {
+          "title": "新しいプレイヤーの追加",
+          "description": "新しいBlue Lockキャラクターとロースターに追加された新しいチームオプションを追跡します。"
+        },
+        {
+          "title": "ゲームバランスの変更",
+          "description": "プレイヤーアビリティ、試合バランス、全体のパフォーマンスに影響を与える調整をレビューします。"
+        },
+        {
+          "title": "限定イベント",
+          "description": "特別なイベント、エクスクルーシブな報酬、一時的なゲームコンテンツに従います。"
+        },
+        {
+          "title": "開発者の発表",
+          "description": "将来の改善、機能、ゲームの変更に関する重要なメッセージを確認します。"
+        }
+      ]
+    },
+    "blueLockSquadTipsAndTricks": {
+      "title": "Build a Blue Lock Squad チップとトリック",
+      "eyebrow": "戦略ガイド",
+      "intro": "チーム構築、賢明なリソースの使用、新規および経験豊富なプレイヤーのための証明された試合戦略でBuild a Blue Lock Squadのパフォーマンスを向上させます。",
+      "cards": [
+        {
+          "title": "強力なプレイヤーを中心に構築する",
+          "description": "好みの攻撃または守備戦略に合ったプレイヤーにリソースを集中させます。"
+        },
+        {
+          "title": "プレイヤーアビリティを学ぶ",
+          "description": "プレイヤーの強みを理解して、試合中に効果的にスキルを使用する。"
+        },
+        {
+          "title": "クラブをバランスよく構成する。",
+          "description": "一種のプレイヤーに依存するのではなく、異なるプレースタイルのチームを作成する。"
+        },
+        {
+          "title": "效率的にアップグレードする。",
+          "description": "チームの全体的なパフォーマンスを向上させる有用なアップグレードを優先する。"
+        },
+        {
+          "title": "試合タイミングの練習をする。",
+          "description": "次々とプレイを通じて、シュート、パス、ポジショニングを改善する。"
+        }
+      ]
+    }
+  },
+  "faq": {
+    "title": "常に尋ねられる質問",
+    "titleHighlight": "質問",
+    "subtitle": "Build a Blue Lock Squadに関するすべてを知る。",
+    "questions": [
+      {
+        "question": "Build a Blue Lock Squadとは何ですか？",
+        "answer": "Build a Blue Lock Squadは、強力なブルーロックキャラクターを収集し、競争力のあるクラブを編成し、戦略的な陣形とプレイヤーのスキルで対戦相手に挑戦するRobloxのフットボールチームビルディングゲームです。"
+      },
+      {
+        "question": "Build a Blue Lock Squadのコードをどこで交換できますか？",
+        "answer": "ゲーム内でメニューを開き、コード交換オプションを見つけ、有効なコードを入力し、無料スピン、コイン、および報酬を請求するために、Build a Blue Lock Squadのコードを交換できます。"
+      },
+      {
+        "question": "Build a Blue Lock Squadで最も優れたプレイヤーは誰ですか？",
+        "answer": "トップクラスのBuild a Blue Lock Squadプレイヤーには、イサギ・ヨイチやリン・イトシのような高インパクトのフォワードが含まれます。完全なSとAランクの詳細は、プレイヤータイヤリストを確認してください。"
+      },
+      {
+        "question": "Build a Blue Lock Squadで強力なクラブをどうやって構築しますか？",
+        "answer": "数名の強力なプレイヤーにリソースを集中し、異なるプレースタイルでクラブをバランスよく構成し、効率的にアップグレードします。初級者ガイドおよびコツとヒントセクションでは、証明されたチームビルディング戦略がカバーされています。"
+      },
+      {
+        "question": "Build a Blue Lock Squadは無料で遊べますか？",
+        "answer": "はい。Build a Blue Lock SquadはRobloxで無料で遊び、オプションのインゲーム購入と追加リソースのための無料コードがあります。"
+      },
+      {
+        "question": "Build a Blue Lock Squadでどのようなコントロールが必要ですか？",
+        "answer": "Build a Blue Lock Squadは標準のキーボードとマウスコントロールを使用します：WASDで移動、スペースでジャンプ、シフトでスプリント、マウスでカメラを操作します。詳細については、コントロールガイドを参照してください。"
+      }
+    ]
+  },
+  "cta": {
+    "title": "ブルーロッククラブを構築する準備ができていますか？",
+    "description": "力強いストライカーを収集し、最終的なフットボールチームを構築し、試合を支配します。Build a Blue Lock Squadの最新コード、ティアリスト、クラブガイドを手に入れましょう。",
+    "joinCommunity": "Robloxでプレイする",
+    "joinGame": "Robloxを訪れる"
+  },
+  "footer": {
+    "title": "Build A Blue Lock Squad Wiki",
+    "description": "Build A Blue Lock Squadのコード、キャラクター、ティアリスト、クラブビルド、ゲームガイドの完全なリソースハブです。",
+    "resources": "リソース",
+    "community": "コミュニティ",
+    "legal": "法的",
+    "discord": "Robloxでプレイする",
+    "twitter": "Roblox",
+    "steamCommunity": "Robloxニュース",
+    "steamStore": "Robloxサポート",
+    "about": "について",
+    "privacy": "プライバシーポリシー",
+    "terms": "サービス条項",
+    "copyrightNotice": "著作権",
+    "copyright": "© 2026 Build A Blue Lock Squad Wiki。Build A Blue Lock Squadの開発者やRoblox Corporationとは関連していません。",
+    "disclaimer": "非公式のファン制作リソースウェブサイト。"
+  },
+  "pages": {
+    "codes": {
+      "title": "Build a Blue Lock Squad コード",
+      "description": "無料で最新の Build a Blue Lock Squad コードを提供し、リワード、ボス、特別アイテムを強化。毎日確認済みのコードで更新。",
+      "metaTitle": "Build a Blue Lock Squad コード - 無料リワード & ボス",
+      "metaDescription": "最新の Build a Blue Lock Squad コードを無料でリワード、ボス、特別アイテムを獲得。毎日確認済みの動作確認済みのコードで更新。",
+      "categoryLabel": "コードを引き換え",
+      "whatIs": "コードとは何ですか？",
+      "whatIsDescription": "コードは開発者によってリリースされた、無料のリソース（通貨、ボス、特別アイテムなど）を提供し、より強いフットボールチームを早く構築するのに役立つ引き換え可能な文字列です。",
+      "why": "コードを引き換える理由は何ですか？",
+      "whySteps": {
+        "step1Title": "無料リソース",
+        "step1Description": "Robuxを使わずに通貨、ボス、アイテムを手に入れる",
+        "step2Title": "より速い進行",
+        "step2Description": "コードを引き換え、高階のプレイヤーやトレーニングのアップグレードを素早く解除",
+        "step3Title": "最新の情報を把握",
+        "step3Description": "更新、マイルストーン、休日イベント中に新しいコードが配布されます"
+      },
+      "featured": "フィーチャー & 必要",
+      "all": "全てのコード"
+    },
+    "guide": {
+      "title": "Build a Blue Lock Squad ガイド",
+      "description": "初級から高度なチーム戦略までをカバーする完全な Build a Blue Lock Squad ガイド。進行、ヒント、プレイ方法を説明。",
+      "metaTitle": "Build a Blue Lock Squad ガイド - 初級から高度な戦略",
+      "metaDescription": "完全ガイドで Build a Blue Lock Squad をマスターし、初級のヒント、進行、チーム構築、そしてRobloxフットボールチームビルダーの高度な戦略をカバー。",
+      "categoryLabel": "ゲームガイド",
+      "whatIs": "ガイドセクションとは何ですか？",
+      "whatIsDescription": "プレイ方法、進行パス、チーム戦略をカバーする包括的なガイド。初歩から高度な技術まで、勝利するチームを構築するための全てを学びます。",
+      "why": "ガイドを読む理由は何ですか？",
+      "whySteps": {
+        "step1Title": "核心メカニクスを学ぶ",
+        "step1Description": "マッチシステムを理解し、初心者の間違えを避ける",
+        "step2Title": "より速い進行",
+        "step2Description": "試されたパスに従い、より強いチームを構築し、マッチを勝つ",
+        "step3Title": "戦略をマスター",
+        "step3Description": "ソクビルディングと競技プレイのための高度な戦術を開発"
+      },
+      "featured": "フィーチャー & 必要",
+      "all": "全てのガイド"
+    },
+    "players": {
+      "title": "Build a Blue Lock Squad プレイヤー",
+      "description": "キャラクター、レアリティ、能力、プレイスタイルをカバーする詳細な Build a Blue Lock Squad プレイヤーガイド。最も良いストライカー、ミッドフィールダー、ディフェンダーを選ぶのに役立ちます。",
+      "metaTitle": "Build a Blue Lock Squad プレイヤー & キャラクターガイド",
+      "metaDescription": "レアリティ、能力、プレイスタイルについての詳細なガイドで Build a Blue Lock Squad プレイヤーやキャラクターを探求。チームに最適なストライカー、ミッドフィールダー、ディフェンダーを見つけます。",
+      "categoryLabel": "プレイヤー",
+      "whatIs": "プレイヤーとは何ですか？",
+      "whatIsDescription": "プレイヤーは、マッチで収集し展開するフットボールキャラクターです。それぞれがユニークなレアリティ、能力、プレイスタイルを持ち、ピッチでのパフォーマンスを定義します。",
+      "why": "プレイヤーを研究する理由は何ですか？",
+      "whySteps": {
+        "step1Title": "あなたのロースターを知ろう",
+        "step1Description": "それぞれのキャラクターのレアリティ、能力、強さを学ぶ",
+        "step2Title": "正しい役割を選ぶ",
+        "step2Description": "前衛、ミッドフィールダー、ディフェンダーをあなたの戦略に合わせて選ぶ",
+        "step3Title": "智能的なチームを構築する",
+        "step3Description": "強いチームのための相性の良いプレイスタイルを組み合わせる"
+      },
+      "featured": "フィーチャー & 必須",
+      "all": "全てのプレイヤー"
+    },
+    "team": {
+      "title": "ブルーロックスquadチームを構築する",
+      "description": "最も強くて競争力のあるチームを作るための最善のチーム、編成、バランスの良いセットアップをカバーするブルーロックスquadチーム構築ガイド",
+      "metaTitle": "ブルーロックスquadチーム - ベストのチームと編成",
+      "metaDescription": "ベストのチーム、編成、バランスの良いセットアップに関するガイドを使用して最も強いブルーロックスquadチームを作成し、すべてのマッチモード用の競争力のあるチームを作る",
+      "categoryLabel": "チームビルド",
+      "whatIs": "チームビルドとは何ですか？",
+      "whatIsDescription": "チームビルドガイドは、最善の編成、役割バランス、競争力のあるマッチのためのシナジーを使用してプレイヤーを強力なチームに組み合わせる方法を示します。",
+      "why": "チームを構築する理由は何ですか？",
+      "whySteps": {
+        "step1Title": "最強のチーム",
+        "step1Description": "各マッチモード用の最善のチーム組み合わせを見つける",
+        "step2Title": "編成戦術",
+        "step2Description": "編成とポジションセットアップを学び、シナジーを最大限に活かす",
+        "step3Title": "バランスの良いラインアップ",
+        "step3Description": "攻撃、ミッドフィールド、ディフェンスをバランス良くするチームを構築する"
+      },
+      "featured": "フィーチャー & 必須",
+      "all": "全てのチーム"
+    },
+    "gameplay": {
+      "title": "ブルーロックスquadゲームプレイ",
+      "description": "ブルーロックスquadゲームプレイガイドは、勝利するためのマッチメカニクス、コントロール、スキル、サッカータクティクス、編成をカバーします。",
+      "metaTitle": "ブルーロックスquadゲームプレイ - メカニクス、コントロール & スキル",
+      "metaDescription": "ブルーロックスquadゲームプレイをマスターするためのガイドは、マッチメカニクス、コントロール、スキル、サッカータクティクス、編成に関するガイドを使用して、より多くの勝利を収める方法を学びます。",
+      "categoryLabel": "ゲームプレイ",
+      "whatIs": "ゲームプレイとは何ですか？",
+      "whatIsDescription": "ゲームプレイガイドは、試合を決定するマッチメカニクス、コントロール、スキル、サッカータクティクスが説明されています。フィールド上で編成と能力がどのように機能するかを学びます。",
+      "why": "ゲームプレイを学ぶ理由は何ですか？",
+      "whySteps": {
+        "step1Title": "コントロールをマスターする",
+        "step1Description": "すべての試合を動かすコントロールとメカニクスを学ぶ",
+        "step2Title": "スキルを賢く使う",
+        "step2Description": "能力とスキルを時間を計って敵を支配する",
+        "step3Title": "戦術を適用する",
+        "step3Description": "胜利するための編成とサッカータクティクスを展開する"
+      },
+      "featured": "フィーチャー & 必須",
+      "all": "ゲームプレイガイド全て"
+    },
+    "rewards": {
+      "title": "Build a Blue Lock Squad リワード",
+      "description": "Build a Blue Lock Squad リワードガイド：スピン、リルルール、無料リソース、ログインボーナス、イベントリワードの獲得方法を紹介",
+      "metaTitle": "Build a Blue Lock Squad リワード - スピン、リルルール & 無料リソース",
+      "metaDescription": "Build a Blue Lock Squadでリワードガイドを使ってもっと稼いで、スピン、リルルール、無料リソース、ログインボーナス、イベントリワードを最大限に活用し、無料リソースを全て活用",
+      "categoryLabel": "リワード",
+      "whatIs": "リワードとは何ですか？",
+      "whatIsDescription": "リワードガイドではスピン、リルルール、無料リソース、ログインボーナス、イベントリワードをカバーし、無料リソースがどこから来てどう賢く使うかを学びます",
+      "why": "リワードを追跡する理由は何ですか？",
+      "whySteps": {
+        "step1Title": "リソースをより早く獲得",
+        "step1Description": "スピン、リルルール、無料アイテムの最も良いソースを見つけます",
+        "step2Title": "事件を逃さないで",
+        "step2Description": "ログインボーナスと限定時間イベントを常にチェック",
+        "step3Title": "賢く使う",
+        "step3Description": "最も重要なアップグレードに無料リソースを使います"
+      },
+      "featured": "フィーチャー & 必要",
+      "all": "全リワード"
+    },
+    "updates": {
+      "title": "Build a Blue Lock Squad 更新",
+      "description": "最新のBuild a Blue Lock Squad更新：パッチノート、新しいキャラクター、新しいスキル、イベント、各更新ごとの新しいコードをカバー",
+      "metaTitle": "Build a Blue Lock Squad 更新 - パッチノート & 新しいコンテンツ",
+      "metaDescription": "最新のBuild a Blue Lock Squad更新を追跡：パッチノート、新しいキャラクター、新しいスキル、イベント、新しいコード。各リリースでゲームに追加される内容を常に最新の状態に保ちます",
+      "categoryLabel": "更新",
+      "whatIs": "更新とは何ですか？",
+      "whatIsDescription": "更新ではバージョン変更、パッチノート、新しいキャラクター、新しいスキル、イベント、新しいコードをカバーし、各リリースでゲームに追加される内容を常に最新の状態に保ちます",
+      "why": "更新を追跡する理由は何ですか？",
+      "whySteps": {
+        "step1Title": "パッチノート",
+        "step1Description": "バージョン変更やバランスの更新を読んでください",
+        "step2Title": "新しいコンテンツ",
+        "step2Description": "各更新で新しいキャラクター、スキル、イベントを見つけ出します",
+        "step3Title": "新しいコード",
+        "step3Description": "主要な更新と同時にリリースされた新しいコードを捕まえます"
+      },
+      "featured": "フィーチャー & 必要",
+      "all": "全更新"
+    },
+    "discord": {
+      "title": "Build a Blue Lock Squad Discord",
+      "description": "Build a Blue Lock Squad Discordとコミュニティガイド：公式サーバー、プレゼント当て、発表、活発なコードと開発者ニュースを見つける場所をカバー",
+      "metaTitle": "Build a Blue Lock Squad Discord & コミュニティハブ",
+      "metaDescription": "公式サーバー、プレゼント当て、発表、活発なコード、最新の開発者ニュースを探すためにBuild a Blue Lock Squad Discordとコミュニティに参加してください",
+      "categoryLabel": "コミュニティ",
+      "whatIs": "Discordとは何ですか？",
+      "whatIsDescription": "Discordとコミュニティセクションでは、公式サーバー、プレゼント当て、発表、活発なコードと開発者ニュースを見つける最高の場所を案内します",
+      "why": "コミュニティに加入する理由は何ですか？",
+      "whySteps": {
+        "step1Title": "活動中のコード",
+        "step1Description": "限定時間のプレゼントとシークレットコードの配布を最初にキャッチ",
+        "step2Title": "デベロッパーの発表",
+        "step2Description": "オフィシャルのニュース、イベント、アップデートスケジュールにフォロー",
+        "step3Title": "プレイヤーコミュニティ",
+        "step3Description": "他のプレイヤーとチーム、戦略、ヒントを共有"
+      },
+      "featured": "フィーチャー & 必須",
+      "all": "全コミュニティガイド"
+    }
   }
 }
