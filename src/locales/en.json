@@ -10,7 +10,16 @@
       "twitterDescription": "Build A Blue Lock Squad Wiki provides Roblox codes, character guides, team builds, rankings, and gameplay tips to help players create stronger football squads."
     }
   },
-  "nav": {},
+  "nav": {
+    "codes": "Codes",
+    "guide": "Guide",
+    "players": "Players",
+    "team": "Team",
+    "gameplay": "Gameplay",
+    "rewards": "Rewards",
+    "updates": "Updates",
+    "discord": "Discord"
+  },
   "common": {
     "home": "Home",
     "more": "More",
@@ -420,14 +429,34 @@
     "disclaimer": "Unofficial fan-made resource website."
   },
   "pages": {
-    "guides": {
-      "title": "Build a Blue Lock Squad Guides",
-      "description": "Complete gameplay guides from beginner basics to advanced squad strategies. Master matches, scoring, and team building.",
-      "metaTitle": "Build a Blue Lock Squad Guides - Beginner to Advanced Strategies",
-      "metaDescription": "Complete Build a Blue Lock Squad guides covering beginner tips, squad building, match strategies, and expert tactics for mastering the Roblox football squad builder.",
+    "codes": {
+      "title": "Build a Blue Lock Squad Codes",
+      "description": "Latest working Build a Blue Lock Squad codes for free rewards, boosts, and exclusive items. Updated daily with verified codes.",
+      "metaTitle": "Build a Blue Lock Squad Codes - Free Rewards & Boosts",
+      "metaDescription": "Claim the latest Build a Blue Lock Squad codes for free rewards, boosts, and exclusive items. Updated daily with verified working codes.",
+      "categoryLabel": "REDEEM CODES",
+      "whatIs": "What are Codes?",
+      "whatIsDescription": "Codes are redeemable strings released by the developers that grant free resources such as currency, boosts, and exclusive items, helping you build a stronger football squad faster.",
+      "why": "Why redeem codes?",
+      "whySteps": {
+        "step1Title": "Free Resources",
+        "step1Description": "Get currency, boosts, and items without spending Robux",
+        "step2Title": "Faster Progression",
+        "step2Description": "Redeem codes to unlock high-tier players and training upgrades quickly",
+        "step3Title": "Stay Current",
+        "step3Description": "New codes drop during updates, milestones, and holiday events"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Codes"
+    },
+    "guide": {
+      "title": "Build a Blue Lock Squad Guide",
+      "description": "Complete Build a Blue Lock Squad guides from beginner basics to advanced squad strategies, covering progression, tips, and how to play.",
+      "metaTitle": "Build a Blue Lock Squad Guide - Beginner to Advanced Strategies",
+      "metaDescription": "Master Build a Blue Lock Squad with complete guides covering beginner tips, progression, squad building, and advanced strategies for the Roblox football squad builder.",
       "categoryLabel": "GAME GUIDES",
-      "whatIs": "What are Guides?",
-      "whatIsDescription": "Comprehensive guides covering gameplay mechanics, match strategies, and squad building. Learn everything from first steps to advanced techniques.",
+      "whatIs": "What is the Guide section?",
+      "whatIsDescription": "Comprehensive guides covering how to play, progression paths, and squad strategies. Learn everything from first steps to advanced techniques for building winning teams.",
       "why": "Why read guides?",
       "whySteps": {
         "step1Title": "Learn Core Mechanics",
@@ -435,110 +464,130 @@
         "step2Title": "Fast Progression",
         "step2Description": "Follow proven paths to build stronger squads and win matches",
         "step3Title": "Master Strategies",
-        "step3Description": "Develop advanced tactics for squad building and PvP play"
+        "step3Description": "Develop advanced tactics for squad building and competitive play"
       },
       "featured": "Featured & Essential",
       "all": "All Guides"
     },
-    "crafting": {
-      "title": "Build a Blue Lock Squad Player Abilities",
-      "description": "Master player abilities, skills, and play styles with detailed breakdowns and team building strategies for powerful squads.",
-      "metaTitle": "Build a Blue Lock Squad Player Abilities & Skills Guide",
-      "metaDescription": "Master Build a Blue Lock Squad player abilities and skills. Learn how each play style works and build stronger football squads around the right characters.",
-      "categoryLabel": "PLAYER ABILITIES",
-      "whatIs": "What are Player Abilities?",
-      "whatIsDescription": "Player abilities are unique skills and play styles that define how each Blue Lock character performs in matches. Choosing the right abilities for your strategy is key to building winning squads.",
-      "why": "Why learn abilities?",
+    "players": {
+      "title": "Build a Blue Lock Squad Players",
+      "description": "Detailed Build a Blue Lock Squad player guides covering characters, rarities, abilities, and play styles to help you choose the best forwards, midfielders, and defenders.",
+      "metaTitle": "Build a Blue Lock Squad Players & Characters Guide",
+      "metaDescription": "Explore Build a Blue Lock Squad players and characters with detailed guides on rarities, abilities, and play styles. Find the best forwards, midfielders, and defenders for your squad.",
+      "categoryLabel": "PLAYERS",
+      "whatIs": "Who are the Players?",
+      "whatIsDescription": "Players are the football characters you collect and deploy in matches. Each has unique rarities, abilities, and play styles that define how they perform on the pitch.",
+      "why": "Why study players?",
       "whySteps": {
-        "step1Title": "Unlock Stronger Squads",
-        "step1Description": "Discover which player skills fit your attacking or defensive strategy",
-        "step2Title": "Understand Play Styles",
-        "step2Description": "Learn how dribbling, shooting, and vision abilities combine in matches",
-        "step3Title": "Optimize Resources",
-        "step3Description": "Focus upgrades on the abilities that matter most for your team"
+        "step1Title": "Know Your Roster",
+        "step1Description": "Learn every character rarity, ability, and strength",
+        "step2Title": "Pick the Right Roles",
+        "step2Description": "Match forwards, midfielders, and defenders to your strategy",
+        "step3Title": "Build Smarter Squads",
+        "step3Description": "Combine complementary play styles for stronger teams"
       },
       "featured": "Featured & Essential",
-      "all": "All Ability Guides"
+      "all": "All Players"
     },
-    "items": {
-      "title": "Build a Blue Lock Squad Items & Rewards",
-      "description": "Detailed item and reward guides covering spins, rerolls, coins, upgrade materials, and redemption methods with usage tips.",
-      "metaTitle": "Build a Blue Lock Squad Items & Rewards Guide",
-      "metaDescription": "Complete item and reward database for Build a Blue Lock Squad including spins, rerolls, coins, and upgrade materials. Learn how to earn and use every resource effectively.",
-      "categoryLabel": "ITEMS & REWARDS",
-      "whatIs": "What are Items?",
-      "whatIsDescription": "Comprehensive guides for spins, rerolls, coins, upgrade materials, and event rewards. Learn how to earn resources and spend them wisely.",
-      "why": "Why check item guides?",
+    "team": {
+      "title": "Build a Blue Lock Squad Team",
+      "description": "Build a Blue Lock Squad team building guides covering the best squads, formations, and balanced setups to create the strongest and most competitive teams.",
+      "metaTitle": "Build a Blue Lock Squad Team - Best Squads & Formations",
+      "metaDescription": "Build the strongest Build a Blue Lock Squad teams with guides on best squads, formations, and balanced setups. Create competitive teams for every match mode.",
+      "categoryLabel": "TEAM BUILDS",
+      "whatIs": "What is Team Building?",
+      "whatIsDescription": "Team building guides show how to combine players into powerful squads using the best formations, role balance, and synergy for competitive matches.",
+      "why": "Why build teams?",
+      "whySteps": {
+        "step1Title": "Strongest Squads",
+        "step1Description": "Discover the best squad combinations for each match mode",
+        "step2Title": "Formation Tactics",
+        "step2Description": "Learn formations and position setups that maximize synergy",
+        "step3Title": "Balanced Lineups",
+        "step3Description": "Build teams that balance attack, midfield, and defense"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Teams"
+    },
+    "gameplay": {
+      "title": "Build a Blue Lock Squad Gameplay",
+      "description": "Build a Blue Lock Squad gameplay guides covering match mechanics, controls, skills, soccer tactics, and formations for winning matches.",
+      "metaTitle": "Build a Blue Lock Squad Gameplay - Mechanics, Controls & Skills",
+      "metaDescription": "Master Build a Blue Lock Squad gameplay with guides on match mechanics, controls, skills, soccer tactics, and formations. Learn how to win more matches.",
+      "categoryLabel": "GAMEPLAY",
+      "whatIs": "What is Gameplay?",
+      "whatIsDescription": "Gameplay guides explain the match mechanics, controls, skills, and soccer tactics that decide matches. Learn how formations and abilities work on the pitch.",
+      "why": "Why learn gameplay?",
+      "whySteps": {
+        "step1Title": "Master Controls",
+        "step1Description": "Learn the controls and mechanics that drive every match",
+        "step2Title": "Use Skills Wisely",
+        "step2Description": "Time abilities and skills to dominate opponents",
+        "step3Title": "Apply Tactics",
+        "step3Description": "Deploy formations and soccer tactics that win games"
+      },
+      "featured": "Featured & Essential",
+      "all": "All Gameplay Guides"
+    },
+    "rewards": {
+      "title": "Build a Blue Lock Squad Rewards",
+      "description": "Build a Blue Lock Squad rewards guides covering spins, rerolls, free resources, login bonuses, and event rewards with the best ways to earn them.",
+      "metaTitle": "Build a Blue Lock Squad Rewards - Spins, Rerolls & Free Resources",
+      "metaDescription": "Earn more in Build a Blue Lock Squad with rewards guides on spins, rerolls, free resources, login bonuses, and event rewards. Maximize every free resource.",
+      "categoryLabel": "REWARDS",
+      "whatIs": "What are Rewards?",
+      "whatIsDescription": "Rewards guides cover spins, rerolls, free resources, login bonuses, and event rewards. Learn where free resources come from and how to use them wisely.",
+      "why": "Why track rewards?",
       "whySteps": {
         "step1Title": "Earn Resources Faster",
-        "step1Description": "Discover the best ways to collect spins, coins, and materials",
-        "step2Title": "Optimize Spending",
-        "step2Description": "Choose the right upgrades and rerolls for your progression stage",
-        "step3Title": "Never Miss Codes",
-        "step3Description": "Stay on top of free codes and limited-time event rewards"
+        "step1Description": "Find the best sources for spins, rerolls, and free items",
+        "step2Title": "Never Miss Events",
+        "step2Description": "Stay on top of login bonuses and limited-time events",
+        "step3Title": "Spend Wisely",
+        "step3Description": "Use free resources on the upgrades that matter most"
       },
       "featured": "Featured & Essential",
-      "all": "All Items"
+      "all": "All Rewards"
     },
-    "biomes": {
-      "title": "Build a Blue Lock Squad Match Modes",
-      "description": "Explore match modes, arenas, and gameplay formats with strategies and tips for each competitive environment.",
-      "metaTitle": "Build a Blue Lock Squad Match Modes & Formats",
-      "metaDescription": "Explore Build a Blue Lock Squad match modes including PvP duels, tournaments, and special formats. Find strategies and tips for every competitive environment.",
-      "categoryLabel": "MATCH MODES",
-      "whatIs": "What are Match Modes?",
-      "whatIsDescription": "Guides to different match modes, arenas, and competitive formats. Learn what to expect and how to prepare your squad for each type of match.",
-      "why": "Why learn match modes?",
+    "updates": {
+      "title": "Build a Blue Lock Squad Updates",
+      "description": "Latest Build a Blue Lock Squad updates covering patch notes, new characters, new skills, events, and new codes released each update.",
+      "metaTitle": "Build a Blue Lock Squad Updates - Patch Notes & New Content",
+      "metaDescription": "Track the latest Build a Blue Lock Squad updates including patch notes, new characters, new skills, events, and new codes. Stay current with every release.",
+      "categoryLabel": "UPDATES",
+      "whatIs": "What are Updates?",
+      "whatIsDescription": "Updates cover version changes, patch notes, new characters, new skills, events, and new codes. Stay current with what each release adds to the game.",
+      "why": "Why follow updates?",
       "whySteps": {
-        "step1Title": "Find Your Best Mode",
-        "step1Description": "Locate the match formats that suit your squad and play style",
-        "step2Title": "Avoid Common Mistakes",
-        "step2Description": "Understand the rules and win conditions of each mode",
-        "step3Title": "Plan Your Strategy",
-        "step3Description": "Prepare the right players and formations for each match type"
+        "step1Title": "Patch Notes",
+        "step1Description": "Read version changes and balance updates as they ship",
+        "step2Title": "New Content",
+        "step2Description": "Discover new characters, skills, and events each update",
+        "step3Title": "Fresh Codes",
+        "step3Description": "Catch new codes released alongside major updates"
       },
       "featured": "Featured & Essential",
-      "all": "All Match Modes"
+      "all": "All Updates"
     },
-    "building": {
-      "title": "Build a Blue Lock Squad Team Building",
-      "description": "Master squad composition, formations, and team building strategies to create the strongest possible football squads.",
-      "metaTitle": "Build a Blue Lock Squad Team Building & Formations",
-      "metaDescription": "Master Build a Blue Lock Squad team building with squad composition, formations, and balance strategies for creating the strongest possible football teams.",
-      "categoryLabel": "TEAM BUILDING",
-      "whatIs": "What is Team Building?",
-      "whatIsDescription": "Guides to squad composition, formations, and team balance. Learn to combine the right players and play styles into a winning lineup.",
-      "why": "Why build smart squads?",
+    "discord": {
+      "title": "Build a Blue Lock Squad Discord",
+      "description": "Build a Blue Lock Squad Discord and community guides covering official servers, giveaways, announcements, and where to find active codes and developer news.",
+      "metaTitle": "Build a Blue Lock Squad Discord & Community Hub",
+      "metaDescription": "Join the Build a Blue Lock Squad Discord and community for official servers, giveaways, announcements, active codes, and the latest developer news.",
+      "categoryLabel": "COMMUNITY",
+      "whatIs": "What is the Discord?",
+      "whatIsDescription": "The Discord and community section points you to official servers, giveaways, announcements, and the best places to find active codes and developer news.",
+      "why": "Why join the community?",
       "whySteps": {
-        "step1Title": "Create Balanced Teams",
-        "step1Description": "Combine different play styles and positions for stronger squads",
-        "step2Title": "Manage Resources",
-        "step2Description": "Organize upgrades and materials efficiently across your roster",
-        "step3Title": "Find Synergies",
-        "step3Description": "Discover player combinations that perform well together in matches"
+        "step1Title": "Active Codes",
+        "step1Description": "Catch limited-time giveaways and secret code drops first",
+        "step2Title": "Dev Announcements",
+        "step2Description": "Follow official news, events, and update schedules",
+        "step3Title": "Player Community",
+        "step3Description": "Share squads, strategies, and tips with other players"
       },
       "featured": "Featured & Essential",
-      "all": "All Team Building Guides"
-    },
-    "support": {
-      "title": "Build a Blue Lock Squad Support",
-      "description": "Technical support, platform compatibility, performance tips, and troubleshooting for common issues.",
-      "metaTitle": "Build a Blue Lock Squad Support - Technical Help & Fixes",
-      "metaDescription": "Get technical support for Build a Blue Lock Squad including Roblox setup, performance tips, troubleshooting, and platform compatibility guides.",
-      "categoryLabel": "TECHNICAL SUPPORT",
-      "whatIs": "What is Support?",
-      "whatIsDescription": "Technical guides covering platform compatibility, performance optimization, troubleshooting, and common issues. Get help with controls, settings, and game access.",
-      "why": "Why check support?",
-      "whySteps": {
-        "step1Title": "Fix Technical Issues",
-        "step1Description": "Resolve crashes, performance problems, and compatibility issues",
-        "step2Title": "Optimize Performance",
-        "step2Description": "Configure settings for the best experience on your platform",
-        "step3Title": "Platform Compatibility",
-        "step3Description": "Learn about Roblox access, controls, and system requirements"
-      },
-      "featured": "Featured & Essential",
-      "all": "All Support Articles"
+      "all": "All Community Guides"
     }
   }
 }

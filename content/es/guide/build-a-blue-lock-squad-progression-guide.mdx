@@ -1,0 +1,175 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Guía de Progresión para Crear un Equipo en Blue Lock: Guía de Configuración",
+  description: "Domina las estrategias definitivas de entrenamiento y creación de equipos en Blue Lock PWC. Aprende a subir de rango a tus jugadores y a formar un equipo poderoso.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Squad+Progression+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Build a Blue Lock Squad",
+  keywords: "Blue Lock PWC, guía de progresión, entrenamiento de personajes, Battle Power, BP, creación de equipos"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Objetivo principal**: Utiliza esta **guía de progresión para crear un equipo en Blue Lock** para elevar a tus jugadores del rango G al D+ y superiores.
+- **Bucle de entrenamiento**: Completa la sesión de entrenamiento de 24 turnos en una sola sesión para registrar con éxito a tus personajes.
+- **Composición del equipo**: Evita personajes duplicados y equilibra tus posiciones para maximizar el Poder de Batalla (BP) total del equipo.
+- **Gestión de recursos**: Céntrate diariamente en World Champion Road para asegurar materiales vitales de mejora de personajes.
+</Callout>
+
+<Section icon={Sparkles} title="Guía de Progresión de Blue Lock: Entrenamiento Principal">
+
+Para formar con éxito un equipo competitivo, los jugadores deben dominar el bucle de entrenamiento principal. En Blue Lock: Project World Champion, los personajes de tres estrellas recién adquiridos no pueden colocarse inmediatamente en tu alineación activa. Por defecto, tienen un rango G bloqueado. Para desbloquearlos para la selección de equipo, debes pasarlos por el Modo de Entrenamiento especializado hasta alcanzar al menos el rango D+.
+
+Durante el entrenamiento, tu objetivo principal es gestionar una cuenta regresiva de 24 turnos. Cada acción que tomes reduce este contador, aumentando los atributos básicos de tu jugador, como Tiro (Kick), Velocidad (Speed) y Físico (Physical). Equilibrar estas estadísticas es esencial para crear jugadores especializados que puedan cumplir roles tácticos específicos en el campo.
+
+| Rango del Jugador | Estado de Uso | Potencial de BP | Rol Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Rango G** | Bloqueado (Inutilizable) | Extremadamente Bajo | Necesita entrenamiento inmediato |
+| **Rango F a D** | Bloqueado (Inutilizable) | Bajo | Completar bucle de entrenamiento |
+| **Rango D+ a C** | Desbloqueado (Utilizable) | Moderado | Rellenos de equipo económicos |
+| **Rango B a A** | Desbloqueado (Utilizable) | Alto | Titulares principales del equipo |
+| **Rango S a SS+** | Desbloqueado (Utilizable) | Extremadamente Alto | Líderes del meta competitivo |
+
+El entorno de entrenamiento requiere una planificación cuidadosa. Si completas el proceso con éxito, el rango final de tu jugador se disparará, aumentando drásticamente el Poder de Batalla (BP) total de tu equipo. Esta es la base absoluta de la progresión del equipo.
+
+<Callout type="warning" title="Advertencia de Estamina y Sesión">
+No salgas ni abandones una sesión de entrenamiento a la mitad. Salir de una sesión de entrenamiento antes de que el contador de turnos llegue a cero restablecerá tus estadísticas acumuladas, desperdiciando tu valiosa estamina y dejando a tu personaje bloqueado en el rango G.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Recorrido de Entrenamiento Paso a Paso">
+
+Para alcanzar consistentemente rangos altos como A o S, debes seguir una rutina de entrenamiento estructurada. Hacer clic al azar en las casillas de entrenamiento resultará en una distribución de estadísticas subóptima y rangos finales bajos.
+
+<Steps>
+  <Step num="1" title="Selecciona tu Personaje y Cartas de Apoyo">
+    Elige un personaje de tres estrellas con alto potencial y emparéjalo con cartas de apoyo compatibles. Las cartas de apoyo proporcionan multiplicadores pasivos que aumentan significativamente las ganancias de estadísticas de tus acciones de entrenamiento.
+  </Step>
+  <Step num="2" title="Gestiona la Cuenta Regresiva de 24 Turnos">
+    Selecciona cuidadosamente las casillas de entrenamiento como entrenamiento muscular, ejercicios tácticos o sprints. Tu objetivo es bajar el contador de 24 a 0 manteniendo la estamina de tu jugador lo suficientemente alta como para evitar fallos en el entrenamiento.
+  </Step>
+  <Step num="3" title="Gana Partidos de Entrenamiento Programados">
+    Participa en los partidos programados durante la sesión de entrenamiento. Ganar estos partidos proporciona aumentos masivos de estadísticas. Si tu BP temporal es significativamente más alto que el del oponente, puedes saltarte el partido de forma segura para ahorrar tiempo.
+  </Step>
+  <Step num="4" title="Completa la Evaluación Final">
+    Una vez que el contador llegue a cero, completa el partido final del ciclo de entrenamiento. El juego evaluará tu desempeño y asignará un rango permanente, desbloqueando al personaje para tu equipo principal.
+  </Step>
+</Steps>
+
+Diferentes posiciones de jugador requieren diferentes perfiles de estadísticas. Los delanteros necesitan alto Tiro y Velocidad, mientras que los centrocampistas requieren excelente Técnica y Estamina. Utiliza la tabla a continuación para enfocar las estadísticas correctas durante tus sesiones de entrenamiento.
+
+| Arquetipo | Enfoque de Estadística Principal | Casillas de Entrenamiento Clave | Tipos de Habilidades Objetivo |
+| :--- | :--- | :--- | :--- |
+| **Delantero** | Tiro, Velocidad | Entrenamiento Muscular, Sprint | Potencia de Tiro, Finalización |
+| **Centrocampista** | Técnica, Estamina | Ejercicios Tácticos, Pases | Creación de Juego, Control de Balón |
+| **Defensa** | Físico, Defensa | Entrenamiento de Fuerza, Entrada | Intercepción, Marcaje |
+
+<Callout type="tip" title="Optimiza tus Cartas de Apoyo">
+Haz coincidir siempre el color y los bonos de estadísticas de tus cartas de apoyo con las fortalezas naturales del personaje en entrenamiento. Un delantero se beneficia significativamente más de las cartas de apoyo que aumentan el Tiro que de las que aumentan la Defensa.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Sinergia de Equipo y Estrategias de Posicionamiento">
+
+Una vez que tus personajes estén entrenados y desbloqueados, la siguiente fase de esta **guía de progresión para crear un equipo en Blue Lock** es formar un equipo equilibrado. Un equipo de alto rendimiento depende de la sinergia, el posicionamiento adecuado y la maximización del Poder de Batalla (BP) total.
+
+Una restricción crítica a tener en cuenta es que no puedes usar personajes duplicados con el mismo nombre en el mismo equipo activo. Por ejemplo, no puedes usar dos versiones diferentes de Isagi simultáneamente. Por lo tanto, debes diversificar tu plantilla y entrenar a una gran variedad de jugadores para cubrir tus posiciones.
+
+<CardGrid cols={3}>
+  <Card title="Configuración Ofensiva">
+    - **Enfoque**: Estadísticas altas de Tiro y Velocidad
+    - Ideal para marcar goles rápidos en PvE
+    - Requiere Delanteros de élite como Barou o Bachira
+  </Card>
+  <Card title="Configuración de Muro Defensivo">
+    - **Enfoque**: Estadísticas altas de Físico y Defensa
+    - Excelente para mantener la portería a cero en partidos competitivos
+    - Requiere Defensas y Porteros fuertes
+  </Card>
+  <Card title="Control de Medio Campo Equilibrado">
+    - **Enfoque**: Estadísticas altas de Técnica y Estamina
+    - Mantiene la posesión y domina el campo
+    - Ideal para la progresión táctica a largo plazo
+  </Card>
+</CardGrid>
+
+Posicionar a los jugadores en sus roles naturales activa bonos de sinergia ocultos, aumentando significativamente el BP general de tu equipo durante los partidos en vivo. Utiliza la tabla de compatibilidad a continuación para asignar roles de manera efectiva.
+
+| Posición | Personajes con Mejor Ajuste | Atributos Clave Requeridos | Impacto en el Equipo |
+| :--- | :--- | :--- | :--- |
+| **Delantero (FW)** | Isagi, Barou, Kunigami | Alto Tiro, Alta Velocidad | Anotación principal de goles |
+| **Centrocampista (MF)** | Bachira, Reo, Nagi | Alta Técnica, Estamina | Distribución de balón, asistencias |
+| **Defensa (DF)** | Chigiri (Defensivo), Raichi | Alto Físico, Entrada | Detener los ataques del oponente |
+
+<Callout type="success" title="Bono de Sinergia Desbloqueado">
+Comprueba siempre el indicador de compatibilidad de posición al colocar jugadores en tu alineación. Emparejar a los jugadores con sus posiciones preferidas proporciona un aumento pasivo sustancial a su rendimiento en el partido.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Hitos Diarios y Lista de Verificación de Progresión">
+
+Para mantener un progreso constante en 2026, los jugadores deben establecer una rutina diaria y semanal. La progresión constante asegura que tu equipo se mantenga por delante del aumento de poder (power creep) y domine tanto los partidos de la historia como los desafíos de eventos.
+
+<Checklist
+  id="squad-progression-goals"
+  title="Hitos Esenciales de Progresión:"
+  items={[
+    "Entrenar a todos los personajes principales de tres estrellas al menos al rango D+",
+    "Completar las incursiones diarias de World Champion Road para obtener materiales de mejora",
+    "Subir de nivel tus cartas de apoyo principales para maximizar los multiplicadores de entrenamiento",
+    "Participar en partidos de eventos activos para ganar tickets de invocación premium"
+  ]}
+/>
+
+Farmear los recursos adecuados es crítico para mejorar a tus personajes y cartas de apoyo. Centra tu estamina diaria en las etapas de alto rendimiento para optimizar tu eficiencia de progresión.
+
+| Nombre del Recurso | Uso Principal | Mejor Ubicación de Farmeo | Límite Diario |
+| :--- | :--- | :--- | :--- |
+| **Chips de Mejora** | Subir nivel de estadísticas base | World Champion Road | 3 veces al día |
+| **Tickets de Apoyo** | Invocar nuevas cartas de apoyo | Misiones de Evento | Variable |
+| **Oro / Monedas** | Mejorar cartas y entrenamiento | Recompensas de partidos regulares | Ilimitado |
+
+<Callout type="info" title="Prioriza los Chips de Mejora">
+Los chips de mejora son el principal cuello de botella para la progresión del equipo en el juego avanzado. Nunca te saltes tus incursiones diarias en World Champion Road, ya que estos chips son esenciales para nivelar a los personajes más allá de sus límites base.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+Abordamos las consultas comunes de la comunidad sobre la creación de equipos, el entrenamiento de personajes y las mecánicas de progresión.
+
+<FAQ items={[
+  {
+    question: "¿Por qué no puedo añadir mi nuevo personaje de 3 estrellas recién invocado a mi equipo?",
+    answer: "Los personajes recién obtenidos comienzan en el rango G y están bloqueados. Debes completar al menos una sesión de entrenamiento completa para llevarlos al rango D+ o superior antes de que puedan ser añadidos a tu equipo activo."
+  },
+  {
+    question: "¿Puedo usar múltiples versiones del mismo personaje en un solo equipo?",
+    answer: "No, no puedes usar personajes duplicados con el mismo nombre en el mismo equipo. Debes diversificar tu equipo con diferentes jugadores para completar tu plantilla."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de aumentar el Poder de Batalla (BP) de mi equipo?",
+    answer: "La forma más rápida es completar sesiones de entrenamiento de alto rango (apuntando al rango A o S) y subir de nivel constantemente tus cartas de apoyo, que aplican multiplicadores de estadísticas masivos a tus jugadores entrenados."
+  },
+  {
+    question: "¿Cómo funciona el contador de turnos de entrenamiento?",
+    answer: "El modo de entrenamiento comienza con un contador de 24. Cada acción de entrenamiento que selecciones reduce el contador en 1. Tu objetivo es optimizar las estadísticas y ganar partidos antes de que el contador llegue a 0."
+  }
+]} />
+
+<Callout type="tip" title="Mantente Actualizado">
+Asegúrate de revisar las noticias oficiales del juego con regularidad, ya que los nuevos eventos de entrenamiento y banners de personajes suelen introducir cartas de apoyo que cambian el meta.
+</Callout>
+
+</Section>

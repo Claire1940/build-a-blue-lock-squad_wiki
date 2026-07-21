@@ -1,0 +1,194 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Mecánicas de Build a Blue Lock Squad: Guía de Configuración y Tácticas de Partido",
+  description: "Domina las mecánicas de Build a Blue Lock Squad. Aprende configuraciones de formación de equipo, roles de jugadores, controles y estrategias para dominar los partidos de fútbol en Roblox.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Squad+Mechanics+Guide",
+  date: "2026-07-21",
+  author: "Equipo de Wiki de Build a Blue Lock Squad"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Mecánicas Principales**: Domina las **mecánicas fundamentales de Build a Blue Lock Squad** para coordinar pases, disparar con precisión y ejecutar habilidades.
+- **Construcción de Equipo**: Enfócate en equilibrar tu alineación con delanteros, centrocampistas y defensas especializados.
+- **Controles Clave**: Utiliza Shift para correr, Espacio para saltar y los controles del ratón para ajustar tu cámara durante los partidos de ritmo rápido.
+- **Estrategia Principal**: Mejora primero a tus jugadores de nivel S de alta categoría para maximizar la ventaja competitiva de tu equipo en PvP.
+</Callout>
+
+<Section icon={Map} title="Jugabilidad Básica y Mecánicas de Build a Blue Lock Squad">
+
+Para dominar el campo en Roblox, debes dominar las **mecánicas fundamentales de Build a Blue Lock Squad**. El juego combina una jugabilidad de fútbol trepidante con una gestión táctica del equipo. Ya sea que estés controlando a tu personaje directamente o estableciendo jugadas estratégicas, comprender cómo interactúan el movimiento, el regate, el pase y el disparo es crucial para asegurar victorias contra oponentes difíciles.
+
+El motor del partido depende en gran medida de la interacción física con el balón. Esto significa que tu ángulo de aproximación, la velocidad del jugador y el tiempo influyen directamente en la trayectoria del balón. A diferencia de los simuladores de fútbol tradicionales, esta experiencia integra habilidades especiales inspiradas en el anime que pueden superar las defensas estándar si se cronometran correctamente.
+
+| Acción | Control | Uso Táctico |
+| :--- | :--- | :--- |
+| **Movimiento** | W, A, S, D | Navegar por el campo y posicionar a tu personaje |
+| **Saltar** | Espacio | Interceptar pases altos y ejecutar cabezazos aéreos |
+| **Control de Cámara** | Ratón | Seguir el balón y las posiciones de los oponentes |
+| **Correr** | Shift | Superar a los defensas o perseguir balones sueltos |
+| **Acciones de Habilidad** | Habilidades de teclado | Activar habilidades únicas del personaje para superar la defensa |
+
+Correr es un recurso limitado gobernado por una barra de resistencia. Gestionar este medidor es uno de los aspectos más críticos del ciclo de juego. Agotar tu resistencia demasiado pronto deja a tu personaje lento, lo que facilita enormemente que los defensas rivales te quiten el balón o intercepten tus pases.
+
+<Callout type="success" title="Gestión de Resistencia">
+Usar el sprint de forma eficiente es clave. No agotes tu resistencia de inmediato; guárdala para carreras explosivas o para seguimientos defensivos críticos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Formaciones Tácticas y Roles de Posición">
+
+Construir una alineación equilibrada es la piedra angular del éxito. Cada posición cumple un propósito táctico específico, y combinarlas correctamente crea un flujo fluido en el campo. Sin una estructura adecuada, incluso un equipo de jugadores de alto nivel tendrá dificultades para pasar de la defensa al ataque.
+
+Al organizar tu equipo, debes asignar a los jugadores roles que coincidan con sus atributos naturales. Los delanteros necesitan una gran precisión de disparo, los centrocampistas requieren un excelente control del balón y rango de pase, y los defensas deben poseer fuerza física y capacidad de interceptación.
+
+| Posición | Rol Principal | Atributo Ideal | Jugador Recomendado |
+| :--- | :--- | :--- | :--- |
+| **Delantero** | Marcador de goles | Precisión de disparo | Rin Itoshi, Yoichi Isagi |
+| **Centrocampista** | Creación de juego y pase | Control de balón | Meguru Bachira |
+| **Defensa** | Intercepciones y bloqueo | Fuerza física | Unidades especialistas en defensa |
+
+Diferentes formaciones te permiten enfatizar distintos estilos de juego. Dependiendo de si prefieres un ataque agresivo o un bloque defensivo conservador, debes ajustar tu alineación para explotar las debilidades de tu oponente.
+
+<CardGrid cols={3}>
+  <Card title="Enfoque Ofensivo">
+    - **Alta presión de gol**
+    - Depende de delanteros de élite como Rin
+    - Vulnerable a contraataques
+  </Card>
+  <Card title="Configuración Equilibrada">
+    - **Fuerte control del medio campo**
+    - Líneas de pase fluidas
+    - Ideal para principiantes que aprenden las mecánicas
+  </Card>
+  <Card title="Muro Defensivo">
+    - **Alta presencia física**
+    - Depende de contraataques rápidos
+    - Excelente para defender ventajas estrechas
+  </Card>
+</CardGrid>
+
+<Callout type="tip" title="Optimización de Formación">
+Adapta tu formación a las fortalezas de tus mejores jugadores. Si consigues un delantero de primer nivel pronto, cambia tus tácticas para enviarle el balón constantemente.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Base de Datos de Jugadores y Rankings de Nivel">
+
+No todos los jugadores son iguales. Los personajes de alto nivel poseen habilidades únicas que pueden alterar el curso de un partido en un instante. Esta lista de niveles clasifica a los personajes más destacados según su impacto en el partido, conjuntos de habilidades y utilidad general dentro del meta actual.
+
+Los personajes de nivel S son muy codiciados debido a sus habilidades que cambian el juego. Por ejemplo, Yoichi Isagi destaca en la lectura del campo y la creación de espacios, mientras que Rin Itoshi ofrece una precisión de disparo inigualable desde la distancia. Utilizar a estos personajes de manera efectiva requiere comprender sus disparadores de activación específicos durante los partidos en vivo.
+
+| Nivel | Personaje | Rol | Estilo de Juego y Fortalezas | Valoración |
+| :--- | :--- | :--- | :--- | :--- |
+| **S** | Rin Itoshi | Delantero | Disparo de precisión, control de ataque avanzado | ★★★★★ |
+| **S** | Yoichi Isagi | Delantero | Visión de campo, lectura de juego, creación de goles | ★★★★★ |
+| **A** | Meguru Bachira | Delantero | Regate creativo, control de balón de élite | ★★★★☆ |
+| **A** | Seishiro Nagi | Delantero | Control de balón excepcional, finalización técnica | ★★★★☆ |
+| **B** | Shoei Barou | Delantero | Disparos potentes agresivos, presión física | ★★★☆☆ |
+
+Aunque las unidades de nivel S brindan una ventaja masiva, un equipo de nivel A bien coordinado puede derrotar fácilmente a un equipo desorganizado. Enfócate en la sinergia; emparejar a un regateador creativo como Bachira con un finalizador clínico como Nagi puede crear secuencias ofensivas imparables.
+
+<Callout type="warning" title="Sinergia sobre Rareza">
+Aunque las unidades de nivel S son increíblemente poderosas, un equipo de estrellas descoordinadas perderá contra un equipo equilibrado que utiliza mecánicas de pase adecuadas.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Cómo Construir y Mejorar tu Equipo">
+
+Desarrollar tu equipo desde una alineación de principiante hasta una potencia competitiva requiere un enfoque sistemático. Sigue estos pasos para optimizar la progresión de tu plantilla y aprovechar al máximo tus recursos ganados con esfuerzo.
+
+Mejorar a tus jugadores aumenta sus estadísticas base, como la velocidad, la potencia de disparo y la resistencia. Como los recursos son limitados al principio del juego, debes ser estratégico sobre qué unidades recibirán inversión primero.
+
+<Steps>
+  <Step num="1" title="Reclutar Unidades Básicas">
+    Usa tus recursos iniciales para obtener un atacante y un centrocampista iniciales sólidos que sirvan como columna vertebral de tu equipo.
+  </Step>
+  <Step num="2" title="Establecer tu Formación">
+    Asigna a tus jugadores a posiciones que complementen sus habilidades únicas y asegúrate de tener un creador de juego dedicado.
+  </Step>
+  <Step num="3" title="Mejorar Jugadores Clave">
+    Dirige tus materiales de progresión primero a tus unidades mejor calificadas (Nivel S y A) para maximizar su impacto en el campo.
+  </Step>
+  <Step num="4" title="Practicar Mecánicas de Partido">
+    Juega partidos regularmente para dominar el tiempo de pase, la precisión de disparo y el posicionamiento defensivo.
+  </Step>
+</Steps>
+
+Al enfocarte en un grupo central de jugadores, evitas dispersar tus recursos demasiado. Un solo delantero de alto nivel puede llevar a tu equipo a través de los primeros partidos competitivos mientras construyes lentamente el resto de tu plantilla.
+
+| Nivel de Prioridad | Tipo de Unidad Objetivo | Enfoque Principal | Resultado Esperado |
+| :--- | :--- | :--- | :--- |
+| **Alto** | Delanteros Nivel S | Maximizar estadísticas de disparo | Marcación de goles consistente |
+| **Medio** | Centrocampistas de Juego | Impulsar pases y regates | Juego de transición fluido |
+| **Bajo** | Jugadores de Banquillo | Nivelación general | Profundidad sólida para rotación |
+
+<Callout type="info" title="Asignación de Recursos">
+Prioriza siempre mejorar primero a tu goleador principal. Un solo delantero de alto nivel puede llevar a tu equipo a través de los primeros partidos competitivos.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Tácticas Avanzadas y Consejos de Partido">
+
+Para pasar de un jugador casual a un competidor de alto nivel, debes implementar hábitos tácticos avanzados. Enfócate en la conciencia espacial, las redes de pase y el posicionamiento defensivo en lugar de simplemente perseguir el balón por todo el campo.
+
+Uno de los errores más comunes que cometen los principiantes es "perseguir el balón". Esto deja enormes brechas en tu defensa y hace que sea increíblemente fácil para los oponentes experimentados pasarte el balón. En su lugar, mantén tu posición y vigila las líneas de pase para forzar pérdidas de balón.
+
+<Checklist
+  id="matchday-goals"
+  title="Objetivos Esenciales para el Día del Partido:"
+  items={[
+    "Dominar el tiempo de los pases cortos y largos",
+    "Guardar resistencia para carreras ofensivas explosivas",
+    "Coordinar presiones defensivas con los compañeros de equipo",
+    "Utilizar habilidades únicas de jugador en momentos críticos"
+  ]}
+/>
+
+Cuando estés al ataque, utiliza la técnica de la pared (pase y sigue). Pasa el balón a un centrocampista, corre hacia un espacio abierto y pide un pase de vuelta rápido. Este movimiento rápido desorienta a los defensas y abre carriles de disparo claros para tus delanteros.
+
+<Callout type="tip" title="Conciencia Espacial">
+Observa el minimapa o ajusta tu cámara con frecuencia. Saber dónde están tus compañeros sin mirar directamente a ellos es un sello distintivo de la creación de juego de élite.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Preguntas Frecuentes">
+
+Encuentra respuestas a las preguntas más comunes sobre la construcción de equipos, las mecánicas de los jugadores y la progresión.
+
+<FAQ items={[
+  {
+    question: "¿Cómo domino las mecánicas de Build a Blue Lock Squad?",
+    answer: "La práctica es la clave. Enfócate primero en aprender los controles del teclado, especialmente correr con Shift y saltar con Espacio, luego combínalos con las habilidades específicas de los jugadores durante los partidos."
+  },
+  {
+    question: "¿Qué personaje es actualmente el mejor del juego?",
+    answer: "Rin Itoshi y Yoichi Isagi son ampliamente considerados las mejores unidades de nivel S debido a su excepcional precisión de disparo y habilidades de lectura de juego."
+  },
+  {
+    question: "¿Debo enfocarme en mejorar a mis defensas o a mis delanteros primero?",
+    answer: "Debes priorizar mejorar a tus delanteros primero. Marcar goles es el camino más directo a la victoria, y un delantero de alto nivel puede compensar las debilidades defensivas al principio."
+  },
+  {
+    question: "¿Cómo desbloqueo nuevos personajes para mi equipo?",
+    answer: "Puedes desbloquear nuevas unidades a través del sistema de reclutamiento utilizando recursos del juego, códigos o recompensas obtenidas al ganar partidos competitivos."
+  }
+]} />
+
+<Callout type="success" title="Mantente Actualizado">
+Mantente atento a las actualizaciones del juego y a los códigos de la comunidad, ya que con frecuencia ofrecen giros gratuitos y aumentos de progresión para acelerar la construcción de tu equipo.
+</Callout>
+
+</Section>

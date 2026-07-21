@@ -1,0 +1,174 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+
+export const metadata = {
+  title: "Controles de build a blue lock squad: Guía de configuración y teclas",
+  description: "Domina los controles de build a blue lock squad con nuestra guía completa. Aprende las teclas esenciales, la mecánica de tiro y tácticas avanzadas.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Squad+Controls+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de build a blue lock squad"
+}
+
+<Callout type="info" title="Guía rápida">
+- **Mecánicas principales**: Domina los **controles de build a blue lock squad** para ejecutar pases rápidos, tiros potentes y jugadas defensivas cerradas.
+- **Entradas clave**: Los esquemas de teclado estándar priorizan el clic izquierdo para tirar, el clic derecho para pasar y teclas especiales para las habilidades únicas de los personajes.
+- **Configuración táctica**: Ajusta la sensibilidad de la cámara y la configuración de fijación de objetivo para mantener la visión del campo durante partidos rápidos.
+- **Estilos de personaje**: Alinea tus controles con estilos de jugador específicos como Kaiser o Nagi para maximizar la sinergia del equipo.
+</Callout>
+
+<Section icon={Map} title="Dominando los controles de build a blue lock squad">
+
+Lograr la victoria en el campo requiere una comprensión profunda de los sistemas tácticos y de movimiento. Ya sea que estés configurando tu equipo en una liga competitiva o practicando en el modo libre (sandbox), configurar la distribución de tus controles es el primer paso hacia el dominio. El esquema de control está diseñado para facilitar transiciones rápidas de la defensa al ataque, permitiendo a los jugadores ejecutar maniobras precisas con el mínimo retraso.
+
+Para rendir a un alto nivel, los jugadores deben entrenar su memoria muscular para manejar pases, tiros y posicionamiento defensivo de forma simultánea. La distribución predeterminada proporciona una asignación equilibrada de acciones entre el teclado y el ratón, asegurando que las mecánicas esenciales estén siempre al alcance.
+
+| Tecla | Acción | Función principal | Valor táctico |
+| :--- | :--- | :--- | :--- |
+| **Clic izquierdo** | Patear / Tirar | Lanza el balón hacia adelante | Herramienta principal de anotación |
+| **Clic derecho** | Pasar | Envía el balón a un compañero | Base para mantener la posesión |
+| **Tecla E** | Robar / Entrar | Despoja al oponente del balón | Defensa y recuperación de balón |
+| **Tecla Q** | Regate / Habilidad | Evade las entradas rivales | Mantiene la posesión del balón |
+| **Tecla G** | Despertar | Activa el estado definitivo | Máxima velocidad y potencia |
+| **Tecla R** | Pedir pase | Solicita el balón | Posicionamiento sin balón |
+
+<Callout type="warning" title="Advertencia sobre la sincronización de comandos">
+Presionar botones a lo loco en situaciones defensivas de mucha presión puede provocar entradas accidentales, dejando tu lado del campo completamente expuesto. Concéntrate en realizar pulsaciones limpias y deliberadas en lugar de spamear rápidamente para mantener un posicionamiento óptimo.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="Mecánicas avanzadas de tiro y pase">
+
+Marcar goles de forma constante requiere más que simplemente hacer clic con el ratón. La trayectoria y la potencia de tus tiros están fuertemente influenciadas por el ángulo de la cámara, la velocidad de movimiento y el posicionamiento en relación con la portería. Al acercarse al área, apuntar alto o a las esquinas más alejadas de la red puede superar fácilmente al portero rival.
+
+Pasar requiere la misma precisión. Utilizar la función de clic derecho te permite distribuir el balón por todo el campo, manteniendo a la defensa en movimiento y creando espacios abiertos para tus delanteros. Al jugar sin balón, presionar la tecla de petición indica a tus compañeros que te envíen un pase directamente a tu trayectoria, lo que permite realizar tiros rápidos al primer toque.
+
+<CardGrid cols={3}>
+  <Card title="Controles del delantero (DC)">
+    - **Enfoque principal**: Tiro con clic izquierdo y regate con la tecla Q.
+    - **Estrategia clave**: Apuntar a las esquinas superiores de la red.
+    - **Dificultad**: Moderada a alta.
+  </Card>
+  <Card title="Controles del centrocampista (MC)">
+    - **Enfoque principal**: Pases con clic derecho y peticiones con la tecla R.
+    - **Estrategia clave**: Mantener la posesión y distribuir por las bandas.
+    - **Dificultad**: Media.
+  </Card>
+  <Card title="Controles del defensa (DFC)">
+    - **Enfoque principal**: Entradas con la tecla E y posicionamiento físico.
+    - **Estrategia clave**: Interceptar pases y despejar el balón pronto.
+    - **Dificultad**: Media.
+  </Card>
+</CardGrid>
+
+| Técnica | Dirección de apuntado | Combo de botones | Rango óptimo |
+| :--- | :--- | :--- | :--- |
+| **Tiro alto** | Apuntar hacia arriba | Clic izquierdo + Ratón arriba | Distancia media |
+| **Tiro a la esquina** | Apuntar a la esquina izq./der. | Clic izquierdo + Ángulo | Distancia corta |
+| **Disparo potente** | Centro de la portería | Despertar (G) + Clic izquierdo | Distancia larga |
+| **Vaselina** | Por encima del portero | Tocar Clic izquierdo + Arriba | Borde del área |
+
+<Callout type="tip" title="Consejo profesional de apuntado">
+Cuando el portero rival se posicione en el lado derecho de la portería, ajusta rápidamente tu cámara para apuntar hacia el poste izquierdo. Este enfoque matemático aprovecha los puntos ciegos de la defensa.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Habilidades especiales y sistema de Despertar">
+
+Cada estilo de personaje en el juego posee un conjunto único de habilidades que pueden cambiar el rumbo de un partido. Estas habilidades van desde carreras explosivas hasta técnicas de regate especializadas que pueden romper los tobillos del rival. Activar estas habilidades en el momento adecuado puede crear enormes huecos en la línea defensiva del oponente.
+
+El sistema de Despertar es tu herramienta definitiva. Al acumular energía en tu medidor de concentración mediante pases exitosos, goles y entradas, puedes activar un estado mejorado que aumenta temporalmente todos tus atributos físicos. Durante este período, tu velocidad de movimiento, potencia de tiro y alcance de entrada se incrementan significativamente.
+
+| Nombre del estilo | Movimiento característico | Comando de control | Beneficio táctico |
+| :--- | :--- | :--- | :--- |
+| **Kaiser** | Impacto Kaiser | G + Clic izquierdo | Tiros rápidos e imparables |
+| **Nagi** | Recepción perfecta | Q (En el aire) | Control inmediato del balón |
+| **Bachira** | Regate monstruoso | Q + WASD | Evasión a alta velocidad |
+| **Karasu** | Finta del cuervo | Q + E | Desorienta a los defensores |
+
+<Callout type="info" title="Gestión de la resistencia">
+Las habilidades especiales consumen una parte de tu barra de resistencia. Evita usar carreras o habilidades de regate continuamente mientras estés en tu propio campo; reserva tus recursos de energía para los avances ofensivos.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Integración paso a paso de los controles del equipo">
+
+Integrar estos controles en tu estrategia de partido real requiere un enfoque estructurado. Sigue estos pasos para realizar la transición de movimientos básicos a jugadas avanzadas en equipo sin problemas.
+
+<Steps>
+  <Step num="1" title="Selecciona tu estilo característico">
+    Comienza eligiendo un estilo de personaje que se adapte a tu estilo de juego preferido. Ya sea que prefieras la potencia de tiro pura de Kaiser o el regate ágil de Bachira, tu estilo determina tu enfoque mecánico.
+  </Step>
+  <Step num="2" title="Practica los controles básicos en el entrenamiento">
+    Entra en el modo libre o en el campo de entrenamiento para familiarizarte con el alcance físico de tus entradas y el tiempo de desplazamiento de tus pases. Concéntrate en acertar a tus objetivos de forma constante sin presión defensiva.
+  </Step>
+  <Step num="3" title="Domina la retícula de apuntado">
+    Aprende cómo el movimiento de la cámara afecta la trayectoria del balón. Practica apuntando a las esquinas extremas de la red mientras te mueves a toda velocidad para que tus tiros sean difíciles de bloquear.
+  </Step>
+  <Step num="4" title="Ejecuta jugadas en equipo en los partidos">
+    Únete a partidos activos y concéntrate en la comunicación. Usa la tecla de pedir pase para coordinar contraataques rápidos y utiliza el estado de Despertar para asegurar la victoria en los últimos minutos.
+  </Step>
+</Steps>
+
+<Callout type="success" title="Entrenamiento completado">
+Una vez que puedas marcar goles de forma constante desde el borde del área de penalti mientras utilizas habilidades de regate para esquivar entradas, estarás listo para competir en partidos de rango alto.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Progresión de partidos y objetivos de equipo">
+
+Para medir tu progreso mecánico, intenta completar estos hitos específicos durante tus partidos competitivos. El seguimiento de estos objetivos garantiza que estés utilizando todo el espectro del sistema de control en lugar de depender de movimientos básicos.
+
+<Checklist
+  id="squad-progression-goals"
+  title="Hitos del dominio del control:"
+  items={[
+    "Ejecutar 10 pases exitosos usando el clic derecho en un solo partido",
+    "Marcar un gol desde fuera del área de penalti usando un tiro de ángulo alto",
+    "Interceptar 5 pases del oponente usando la entrada con la tecla E",
+    "Activar el Despertar y marcar durante el estado potenciado",
+    "Realizar un regate rompetobillos exitoso usando la tecla Q"
+  ]}
+/>
+
+<Callout type="tip" title="Sinergia de estilos">
+Combina un estilo de creador de juego con un estilo de delantero de gran potencia en tu equipo. Tener un centrocampista que se especialice en pases asegura que tu delantero siempre reciba balones de alta calidad en el tercio de ataque.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo configuro los controles de build a blue lock squad para una defensa óptima?",
+    answer: "Para la defensa, prioriza asignar tus teclas de entrada y robo a botones de fácil acceso como E o Shift. Asegúrate de que la sensibilidad de tu cámara sea lo suficientemente alta como para seguir a los delanteros rápidos que intentan explotar tus flancos."
+  },
+  {
+    question: "¿Por qué no responde mi tecla de Despertar durante los partidos?",
+    answer: "El estado de Despertar (tecla G) requiere un medidor de concentración completamente cargado. Debes participar activamente en el partido pasando, haciendo entradas o tirando para llenar el medidor antes de que la activación esté disponible."
+  },
+  {
+    question: "¿Puedo personalizar las teclas predeterminadas en el menú del juego?",
+    answer: "Sí, puedes acceder al menú de configuración desde el vestíbulo principal para reasignar tus controles de movimiento, pase y tiro según tus preferencias personales o la distribución de tu hardware."
+  },
+  {
+    question: "¿Cuál es la forma más efectiva de contrarrestar las entradas agresivas?",
+    answer: "Cuando un oponente se acerque para hacer una entrada, calcula el tiempo de tu habilidad de regate con la tecla Q justo cuando se lance a la barrida. Esto activará un movimiento de evasión, dejando al defensor temporalmente inmovilizado."
+  }
+]} />
+
+<Callout type="info" title="Actualizaciones del sistema">
+Las configuraciones de control y los ajustes de equilibrio de los personajes se actualizan periódicamente. Consulta los canales oficiales de la comunidad con regularidad para mantenerte informado sobre los cambios mecánicos.
+</Callout>
+
+</Section>

@@ -1,0 +1,192 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía de Partidos de Build a Blue Lock Squad: Estrategia y Tácticas 2026",
+  description: "Domina el campo con nuestra guía de partidos de Build a Blue Lock Squad. Aprende sobre química, formaciones y roles de jugadores para dominar el meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e3a8a/fff?text=Matches+Strategy+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Build a Blue Lock Squad",
+  keywords: "Build a Blue Lock Squad, guía de partidos, estrategia de fútbol, meta 2026, tácticas de equipo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Guía de partidos de Build a Blue Lock Squad**: El éxito en los partidos requiere un equilibrio entre el "Ego" individual y las reacciones químicas de todo el equipo.
+- **Enfoque en la química**: Prioriza la alineación posicional sobre las estadísticas brutas para desbloquear poderosas bonificaciones pasivas durante los juegos de alto riesgo.
+- **Meta de formación**: El 4-3-3 sigue siendo la configuración más versátil tanto para la presión ofensiva como para la estabilidad defensiva en la temporada 2026.
+- **Gestión de recursos**: Ahorra al menos 200 rerolls antes de intentar construir una alineación especializada de nivel de Copa del Mundo.
+- **Estrategia principal**: Utiliza el rasgo "Metavision" en los centrocampistas para controlar el flujo del partido y activar intercepciones automáticas.
+</Callout>
+
+<Section icon={Map} title="Mecánicas Principales de la Guía de Partidos de Build a Blue Lock Squad">
+
+Comprender los sistemas fundamentales es el primer paso para dominar la tabla de clasificación. En esta **guía de partidos de build a blue lock squad**, nos enfocamos en cómo pasar de una alineación básica a un equipo de clase mundial capaz de ganar el torneo de la Copa del Mundo. Los partidos se determinan por una combinación del OVR (Valoración General) del jugador, la química posicional y las habilidades activas conocidas como "Habilidades de Egoísta".
+
+Para llegar al endgame, tu objetivo principal es alcanzar un OVR de 93. Este hito desbloquea el modo Copa del Mundo, que es la fuente principal de recompensas de alto nivel y jugadores legendarios. A diferencia de las simulaciones de fútbol estándar, este juego recompensa el juego individual agresivo si cuenta con el apoyo del marco táctico correcto.
+
+| Mecánica | Descripción | Impacto en el Partido |
+| :--- | :--- | :--- |
+| **Química** | Vincular jugadores por posición y origen | Aumenta todas las estadísticas entre un 5-15% |
+| **Medidor de Ego** | Medidor que se llena con regates y tiros exitosos | Activa movimientos definitivos específicos del personaje |
+| **Metavisión** | Escultismo pasivo y conciencia del campo | Aumenta la tasa de intercepción y la precisión de los pases |
+| **Estado de Flow** | Mejora temporal para jugadores de alto rendimiento | Maximiza la resistencia y la velocidad durante 10 segundos |
+
+<Callout type="tip" title="Consejo Pro">
+Asegúrate siempre de que tu portero (GK) tenga el rasgo "Muro de Hierro". En partidos contra escuadras de más de 100 de OVR, un GK especializado suele ser lo único que evita una derrota por goleada.
+</Callout>
+
+<CardGrid cols={3}>
+  <Card title="Enfoque Ofensivo">
+    - **Alta Potencia de Tiro**
+    - Se centra en los Delanteros
+    - Ideal para la progresión temprana
+  </Card>
+  <Card title="Enfoque Defensivo">
+    - **Fisicidad y Entradas**
+    - Se centra en los CB y el GK
+    - Esencial para las campañas de la Copa del Mundo
+  </Card>
+  <Card title="Enfoque Equilibrado">
+    - **Pases y Resistencia**
+    - Se centra en los Centrocampistas
+    - Recomendado para PvP de alto rango
+  </Card>
+</CardGrid>
+
+</Section>
+
+<Section icon={Target} title="Optimización de Formaciones y Vínculos Posicionales">
+
+Las formaciones son la columna vertebral de tu estrategia. Un error común que cometen los jugadores es colocar a jugadores con un OVR alto en posiciones incorrectas solo para aumentar el promedio del equipo. Esto rompe los vínculos de química, que se visualizan como líneas azules entre los jugadores. Si estas líneas se vuelven amarillas o desaparecen, tu equipo rendirá significativamente peor durante los partidos, independientemente de sus valoraciones individuales.
+
+Las formaciones más efectivas en el meta actual de 2026 se enumeran a continuación. Elegir la correcta depende de si tienes extremos de élite o si prefieres atacar por el centro.
+
+| Formación | Ideal Para | Debilidad Clave |
+| :--- | :--- | :--- |
+| **4-3-3** | Juego por bandas y centros | Vulnerable a los contraataques |
+| **3-4-3** | Máxima presión ofensiva | Requiere defensas centrales (CB) de élite |
+| **4-4-2** | Estabilidad defensiva | Puede carecer de pases creativos |
+| **4-5-1** | Dominio del mediocampo | El delantero puede quedar aislado |
+
+<Callout type="warning" title="Alerta de Química">
+Mover a un jugador como Isagi de ST a CM puede parecer útil por sus pases, pero si carece de la posición secundaria de CM, la química de todo tu mediocampo caerá, lo que provocará la pérdida de la posesión.
+</Callout>
+
+**Prioridad Posicional para la Máxima Química:**
+- **Portero (GK):** 1 jugador
+- **Defensas (LB, RB, CB):** 4 jugadores
+- **Centrocampistas (LM, RM, CM):** 3 jugadores
+- **Delanteros (LW, RW, ST):** 3 jugadores
+
+Algunos jugadores raros tienen "Posiciones Flexibles", lo que les permite mantener el 100% de química en dos o incluso tres lugares diferentes. Estos jugadores son los "comodines" de tu escuadra y deben ser priorizados durante los rerolls.
+
+</Section>
+
+<Section icon={Sparkles} title="Atributos de Jugador y Rasgos de Egoísta">
+
+En la **guía de partidos de build a blue lock squad**, categorizamos el rendimiento de los jugadores en seis atributos principales. Aunque el OVR es un indicador general, la distribución específica de las estadísticas determina cómo se comporta un jugador durante la simulación. Por ejemplo, un delantero con 99 de velocidad pero 70 de tiro a menudo superará a los defensas pero no logrará marcar.
+
+| Atributo | Función Principal | Posición Ideal |
+| :--- | :--- | :--- |
+| **Velocidad** | Distancia recorrida por segundo | LW, RW, LB, RB |
+| **Tiro** | Precisión y potencia de los disparos | ST, LW, RW |
+| **Pase** | Tasa de éxito de balones largos y cortos | CM, LM, RM |
+| **Regate** | Capacidad para superar a los defensores | LM, RM, ST |
+| **Defensa** | Destreza en intercepciones y entradas | CB, LB, RB |
+| **Físico** | Ganar cabezazos y proteger el balón | CB, ST |
+
+<Callout type="success" title="Éxito Estratégico">
+Combinar un centrocampista "Creador de Juego" con un extremo "Velocista" crea una "Reacción Química" que aumenta la tasa de éxito de los pases al hueco en un 25%.
+</Callout>
+
+**Rasgos de Egoísta Clave a Seguir:**
+- **Tiro Directo:** Aumenta la probabilidad de gol al primer toque.
+- **Regate Monstruoso:** Permite a los jugadores ignorar el primer intento de entrada.
+- **Conciencia Espacial:** Posiciona automáticamente al jugador para los rebotes.
+- **Presencia del Rey:** Mejora las estadísticas de todos los compañeros de equipo circundantes.
+
+</Section>
+
+<Section icon={Swords} title="Preparación del Partido Paso a Paso">
+
+Prepararse para un partido de alto nivel requiere más que simplemente pulsar el botón "Jugar". Debes asegurarte de que tu equipo esté descansado, tus tácticas estén establecidas y tu banquillo esté listo para sustituir a los titulares fatigados. Sigue estos pasos para maximizar tu tasa de victorias en el modo Copa del Mundo.
+
+<Steps>
+  <Step num="1" title="Verificación de la Escuadra">
+    Revisa la posición de cada jugador. Asegúrate de que todas las líneas de conexión sean azules. Si ves una línea amarilla, cambia al jugador por un reserva que se adapte mejor al rol, incluso si su OVR es ligeramente inferior.
+  </Step>
+  <Step num="2" title="Ajuste Táctico">
+    Establece la mentalidad de tu equipo. Contra oponentes más fuertes, usa el modo "Contraataque". Contra equipos más débiles, usa "Presión Alta" para forzar pérdidas de balón en su campo.
+  </Step>
+  <Step num="3" title="Asignación de Habilidades">
+    Equipa a tu capitán con la habilidad de "Aura" más impactante. Esta habilidad afecta a todo el equipo y puede marcar la diferencia en los minutos finales de un partido.
+  </Step>
+  <Step num="4" title="Control de Resistencia">
+    Asegúrate de que tus jugadores estén al 100% de resistencia. Los jugadores con menos del 80% de resistencia comienzan el partido con una penalización del 10% en todas las estadísticas físicas.
+  </Step>
+</Steps>
+
+<Callout type="info" title="Dato del Partido">
+Los partidos de la ronda de 32 de la Copa del Mundo son significativamente más fáciles que las semifinales. Usa las rondas iniciales para cargar tu medidor de "Flow" para las etapas posteriores.
+</Callout>
+
+</Section>
+
+<Section icon={Trophy} title="Recompensas de Partidos y Objetivos de Progresión">
+
+Ganar partidos es la única forma de ganar Trofeos y Dinero, que se utilizan para comprar jugadores raros y desbloquear Capitanes. El sistema de la Copa del Mundo es un desafío de resistencia; perder un solo partido reinicia tu progreso a la Ronda de 32. Por lo tanto, la consistencia es más importante que la brillantez ocasional.
+
+| Etapa del Partido | Recompensa de Trofeos | Recompensa de Dinero | Desbloqueable |
+| :--- | :--- | :--- | :--- |
+| **Ronda de 32** | 1 | $5,000 | Rerolls básicos |
+| **Cuartos de final** | 3 | $15,000 | Refresco raro |
+| **Semifinal** | 5 | $30,000 | Token de Capitán |
+| **Final** | 10 | $100,000 | Jugador 100+ OVR |
+
+<Checklist
+  id="match-readiness"
+  title="Lista de Verificación Pre-Partido:"
+  items={[
+    "Alcanzar un OVR de equipo de 93+ para entrar en la Copa del Mundo",
+    "Confirmar que los 11 jugadores tengan vínculos de química azules",
+    "Acumular más de 50 refrescos para ajustes a mitad del torneo",
+    "Equipar la insignia de 'Egoísta' en tu delantero principal",
+    "Configurar el auto-clicker para el botón Q si juegas en PC"
+  ]}
+/>
+
+<Callout type="tip" title="Consejo de Farmeo">
+Juega durante los "Fines de Semana X2" en 2026 para duplicar tus ganancias de Trofeos. Esta es la forma más rápida de desbloquear los equipos de Leyendas de 2002 y sus Capitanes exclusivos.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Preguntas Frecuentes">
+
+<FAQ items={[
+  {
+    question: "¿Cómo soluciono las líneas de química amarillas en mi escuadra?",
+    answer: "Las líneas amarillas indican que un jugador está en una posición relacionada pero no principal (por ejemplo, un ST jugando como LW). Para solucionar esto, cámbialo por un extremo natural o usa una tarjeta de Cambio de Posición si está disponible."
+  },
+  {
+    question: "¿Cuál es la mejor manera de ganar partidos en el modo Copa del Mundo?",
+    answer: "La mejor estrategia en esta guía de partidos de build a blue lock squad es centrarse en una formación de defensa alta como la 4-4-2 y confiar en un único delantero de más de 100 de OVR para los contraataques."
+  },
+  {
+    question: "¿Importan más las bonificaciones de equipo nacional que la química posicional?",
+    answer: "No. En la versión actual del juego, la química posicional proporciona un aumento de estadísticas mucho mayor que tener jugadores del mismo país como Japón o Alemania."
+  },
+  {
+    question: "¿Cuántos rerolls debo ahorrar antes de construir un equipo de ensueño?",
+    answer: "Se recomienda encarecidamente ahorrar al menos 200 rerolls y 200 refrescos. Esto asegura que puedas rotar suficientes jugadores para encontrar las coincidencias posicionales exactas que necesitas."
+  }
+]} />
+
+</Section>

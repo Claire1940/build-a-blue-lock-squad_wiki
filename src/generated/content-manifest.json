@@ -1,1 +1,582 @@
-{}
+{
+  "en": {
+    "codes": [
+      {
+        "slug": "build-a-blue-lock-squad-codes",
+        "file": "build-a-blue-lock-squad-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "build-a-blue-lock-squad-community",
+        "file": "build-a-blue-lock-squad-community"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-discord",
+        "file": "build-a-blue-lock-squad-discord"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "build-a-blue-lock-squad-controls",
+        "file": "build-a-blue-lock-squad-controls"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-formations",
+        "file": "build-a-blue-lock-squad-formations"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-gameplay",
+        "file": "build-a-blue-lock-squad-gameplay"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-matches-guide",
+        "file": "build-a-blue-lock-squad-matches-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-mechanics",
+        "file": "build-a-blue-lock-squad-mechanics"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-soccer-tactics",
+        "file": "build-a-blue-lock-squad-soccer-tactics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-blue-lock-squad-beginner-guide",
+        "file": "build-a-blue-lock-squad-beginner-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-best-strategy",
+        "file": "build-a-blue-lock-squad-best-strategy"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-guide",
+        "file": "build-a-blue-lock-squad-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-how-to-play",
+        "file": "build-a-blue-lock-squad-how-to-play"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-progression-guide",
+        "file": "build-a-blue-lock-squad-progression-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-team-building-guide",
+        "file": "build-a-blue-lock-squad-team-building-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-tips-and-tricks",
+        "file": "build-a-blue-lock-squad-tips-and-tricks"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-update-guide",
+        "file": "build-a-blue-lock-squad-update-guide"
+      }
+    ],
+    "players": [
+      {
+        "slug": "build-a-blue-lock-squad-best-players",
+        "file": "build-a-blue-lock-squad-best-players"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-best-team",
+        "file": "build-a-blue-lock-squad-best-team"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-characters",
+        "file": "build-a-blue-lock-squad-characters"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-player-guide",
+        "file": "build-a-blue-lock-squad-player-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-player-tier-list",
+        "file": "build-a-blue-lock-squad-player-tier-list"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-strongest-team",
+        "file": "build-a-blue-lock-squad-strongest-team"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "build-a-blue-lock-squad-free-rewards",
+        "file": "build-a-blue-lock-squad-free-rewards"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-rerolls",
+        "file": "build-a-blue-lock-squad-rerolls"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-rewards",
+        "file": "build-a-blue-lock-squad-rewards"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-spins",
+        "file": "build-a-blue-lock-squad-spins"
+      }
+    ],
+    "team": [
+      {
+        "slug": "build-a-blue-lock-squad-best-squad",
+        "file": "build-a-blue-lock-squad-best-squad"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-dream-team",
+        "file": "build-a-blue-lock-squad-dream-team"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-strongest-squad",
+        "file": "build-a-blue-lock-squad-strongest-squad"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-world-class-team",
+        "file": "build-a-blue-lock-squad-world-class-team"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "build-a-blue-lock-squad-new-codes-update",
+        "file": "build-a-blue-lock-squad-new-codes-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-new-update",
+        "file": "build-a-blue-lock-squad-new-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-release-update",
+        "file": "build-a-blue-lock-squad-release-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-update",
+        "file": "build-a-blue-lock-squad-update"
+      }
+    ]
+  },
+  "es": {
+    "codes": [
+      {
+        "slug": "build-a-blue-lock-squad-codes",
+        "file": "build-a-blue-lock-squad-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "build-a-blue-lock-squad-community",
+        "file": "build-a-blue-lock-squad-community"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-discord",
+        "file": "build-a-blue-lock-squad-discord"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "build-a-blue-lock-squad-controls",
+        "file": "build-a-blue-lock-squad-controls"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-formations",
+        "file": "build-a-blue-lock-squad-formations"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-gameplay",
+        "file": "build-a-blue-lock-squad-gameplay"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-matches-guide",
+        "file": "build-a-blue-lock-squad-matches-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-mechanics",
+        "file": "build-a-blue-lock-squad-mechanics"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-soccer-tactics",
+        "file": "build-a-blue-lock-squad-soccer-tactics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-blue-lock-squad-beginner-guide",
+        "file": "build-a-blue-lock-squad-beginner-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-best-strategy",
+        "file": "build-a-blue-lock-squad-best-strategy"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-guide",
+        "file": "build-a-blue-lock-squad-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-how-to-play",
+        "file": "build-a-blue-lock-squad-how-to-play"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-progression-guide",
+        "file": "build-a-blue-lock-squad-progression-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-team-building-guide",
+        "file": "build-a-blue-lock-squad-team-building-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-tips-and-tricks",
+        "file": "build-a-blue-lock-squad-tips-and-tricks"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-update-guide",
+        "file": "build-a-blue-lock-squad-update-guide"
+      }
+    ],
+    "players": [
+      {
+        "slug": "build-a-blue-lock-squad-best-players",
+        "file": "build-a-blue-lock-squad-best-players"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-player-tier-list",
+        "file": "build-a-blue-lock-squad-player-tier-list"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "build-a-blue-lock-squad-free-rewards",
+        "file": "build-a-blue-lock-squad-free-rewards"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-rerolls",
+        "file": "build-a-blue-lock-squad-rerolls"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-rewards",
+        "file": "build-a-blue-lock-squad-rewards"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-spins",
+        "file": "build-a-blue-lock-squad-spins"
+      }
+    ],
+    "team": [
+      {
+        "slug": "build-a-blue-lock-squad-best-squad",
+        "file": "build-a-blue-lock-squad-best-squad"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-dream-team",
+        "file": "build-a-blue-lock-squad-dream-team"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-strongest-squad",
+        "file": "build-a-blue-lock-squad-strongest-squad"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-world-class-team",
+        "file": "build-a-blue-lock-squad-world-class-team"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "build-a-blue-lock-squad-new-codes-update",
+        "file": "build-a-blue-lock-squad-new-codes-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-new-update",
+        "file": "build-a-blue-lock-squad-new-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-release-update",
+        "file": "build-a-blue-lock-squad-release-update"
+      }
+    ]
+  },
+  "ja": {
+    "codes": [
+      {
+        "slug": "build-a-blue-lock-squad-codes",
+        "file": "build-a-blue-lock-squad-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "build-a-blue-lock-squad-community",
+        "file": "build-a-blue-lock-squad-community"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-discord",
+        "file": "build-a-blue-lock-squad-discord"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "build-a-blue-lock-squad-controls",
+        "file": "build-a-blue-lock-squad-controls"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-formations",
+        "file": "build-a-blue-lock-squad-formations"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-gameplay",
+        "file": "build-a-blue-lock-squad-gameplay"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-matches-guide",
+        "file": "build-a-blue-lock-squad-matches-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-mechanics",
+        "file": "build-a-blue-lock-squad-mechanics"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-soccer-tactics",
+        "file": "build-a-blue-lock-squad-soccer-tactics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-blue-lock-squad-beginner-guide",
+        "file": "build-a-blue-lock-squad-beginner-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-best-strategy",
+        "file": "build-a-blue-lock-squad-best-strategy"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-guide",
+        "file": "build-a-blue-lock-squad-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-how-to-play",
+        "file": "build-a-blue-lock-squad-how-to-play"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-progression-guide",
+        "file": "build-a-blue-lock-squad-progression-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-team-building-guide",
+        "file": "build-a-blue-lock-squad-team-building-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-tips-and-tricks",
+        "file": "build-a-blue-lock-squad-tips-and-tricks"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-update-guide",
+        "file": "build-a-blue-lock-squad-update-guide"
+      }
+    ],
+    "players": [
+      {
+        "slug": "build-a-blue-lock-squad-best-players",
+        "file": "build-a-blue-lock-squad-best-players"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-player-tier-list",
+        "file": "build-a-blue-lock-squad-player-tier-list"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "build-a-blue-lock-squad-free-rewards",
+        "file": "build-a-blue-lock-squad-free-rewards"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-rerolls",
+        "file": "build-a-blue-lock-squad-rerolls"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-rewards",
+        "file": "build-a-blue-lock-squad-rewards"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-spins",
+        "file": "build-a-blue-lock-squad-spins"
+      }
+    ],
+    "team": [
+      {
+        "slug": "build-a-blue-lock-squad-best-squad",
+        "file": "build-a-blue-lock-squad-best-squad"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-dream-team",
+        "file": "build-a-blue-lock-squad-dream-team"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-strongest-squad",
+        "file": "build-a-blue-lock-squad-strongest-squad"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-world-class-team",
+        "file": "build-a-blue-lock-squad-world-class-team"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "build-a-blue-lock-squad-new-codes-update",
+        "file": "build-a-blue-lock-squad-new-codes-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-new-update",
+        "file": "build-a-blue-lock-squad-new-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-release-update",
+        "file": "build-a-blue-lock-squad-release-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-update",
+        "file": "build-a-blue-lock-squad-update"
+      }
+    ]
+  },
+  "pt": {
+    "codes": [
+      {
+        "slug": "build-a-blue-lock-squad-codes",
+        "file": "build-a-blue-lock-squad-codes"
+      }
+    ],
+    "discord": [
+      {
+        "slug": "build-a-blue-lock-squad-community",
+        "file": "build-a-blue-lock-squad-community"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-discord",
+        "file": "build-a-blue-lock-squad-discord"
+      }
+    ],
+    "gameplay": [
+      {
+        "slug": "build-a-blue-lock-squad-controls",
+        "file": "build-a-blue-lock-squad-controls"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-formations",
+        "file": "build-a-blue-lock-squad-formations"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-gameplay",
+        "file": "build-a-blue-lock-squad-gameplay"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-matches-guide",
+        "file": "build-a-blue-lock-squad-matches-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-mechanics",
+        "file": "build-a-blue-lock-squad-mechanics"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-soccer-tactics",
+        "file": "build-a-blue-lock-squad-soccer-tactics"
+      }
+    ],
+    "guide": [
+      {
+        "slug": "build-a-blue-lock-squad-beginner-guide",
+        "file": "build-a-blue-lock-squad-beginner-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-best-strategy",
+        "file": "build-a-blue-lock-squad-best-strategy"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-guide",
+        "file": "build-a-blue-lock-squad-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-how-to-play",
+        "file": "build-a-blue-lock-squad-how-to-play"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-progression-guide",
+        "file": "build-a-blue-lock-squad-progression-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-team-building-guide",
+        "file": "build-a-blue-lock-squad-team-building-guide"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-tips-and-tricks",
+        "file": "build-a-blue-lock-squad-tips-and-tricks"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-update-guide",
+        "file": "build-a-blue-lock-squad-update-guide"
+      }
+    ],
+    "players": [
+      {
+        "slug": "build-a-blue-lock-squad-best-players",
+        "file": "build-a-blue-lock-squad-best-players"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-player-tier-list",
+        "file": "build-a-blue-lock-squad-player-tier-list"
+      }
+    ],
+    "rewards": [
+      {
+        "slug": "build-a-blue-lock-squad-free-rewards",
+        "file": "build-a-blue-lock-squad-free-rewards"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-rerolls",
+        "file": "build-a-blue-lock-squad-rerolls"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-rewards",
+        "file": "build-a-blue-lock-squad-rewards"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-spins",
+        "file": "build-a-blue-lock-squad-spins"
+      }
+    ],
+    "team": [
+      {
+        "slug": "build-a-blue-lock-squad-best-squad",
+        "file": "build-a-blue-lock-squad-best-squad"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-dream-team",
+        "file": "build-a-blue-lock-squad-dream-team"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-strongest-squad",
+        "file": "build-a-blue-lock-squad-strongest-squad"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-world-class-team",
+        "file": "build-a-blue-lock-squad-world-class-team"
+      }
+    ],
+    "updates": [
+      {
+        "slug": "build-a-blue-lock-squad-new-codes-update",
+        "file": "build-a-blue-lock-squad-new-codes-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-new-update",
+        "file": "build-a-blue-lock-squad-new-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-release-update",
+        "file": "build-a-blue-lock-squad-release-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-update",
+        "file": "build-a-blue-lock-squad-update"
+      }
+    ]
+  }
+}

@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "codes": "Códigos",
+    "guide": "Guía",
+    "players": "Jugadores",
+    "team": "Equipo",
+    "gameplay": "Jugabilidad",
+    "rewards": "Recompensas",
+    "updates": "Actualizaciones",
+    "discord": "Discord"
+  }
+}

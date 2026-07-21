@@ -1,1 +1,12 @@
-{}
+{
+  "nav": {
+    "codes": "コード",
+    "guide": "ガイド",
+    "players": "選手",
+    "team": "チーム",
+    "gameplay": "ゲームプレイ",
+    "rewards": "報酬",
+    "updates": "アップデート",
+    "discord": "Discord"
+  }
+}

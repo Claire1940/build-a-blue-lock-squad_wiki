@@ -1,0 +1,191 @@
+import { Map, Swords, Trophy, Target, Shield, Sparkles } from 'lucide-react'
+import { Callout } from '@/components/mdx/Callout'
+import { Card, CardGrid } from '@/components/mdx/CardGrid'
+import { Checklist } from '@/components/mdx/Checklist'
+import { FAQ } from '@/components/mdx/FAQ'
+import { Steps, Step } from '@/components/mdx/Steps'
+import { Section } from '@/components/mdx/Section'
+import { YouTubeEmbed } from '@/components/mdx/YouTubeEmbed'
+
+export const metadata = {
+  title: "Guía para Principiantes para Crear un Equipo de Blue Lock: Configuración Pro 2026",
+  description: "Aprende a crear un equipo de Blue Lock con nuestra guía para principiantes. Domina el reroll, los ciclos de entrenamiento y la composición del equipo para dominar el meta de 2026.",
+  category: "Guía",
+  image: "https://placehold.co/800x400/1e293b/fff?text=Build+a+Blue+Lock+Squad+Guide",
+  date: "2026-07-21",
+  author: "Equipo de la Wiki de Build a Blue Lock Squad",
+  keywords: "blue lock squad, guía para principiantes, reroll, entrenamiento, meta 2026, formación de equipo"
+}
+
+<Callout type="info" title="Guía Rápida">
+- **Domina el Reroll**: Para **crear un equipo de Blue Lock** eficaz, comienza con al menos dos personajes de 3 estrellas de alto nivel.
+- **El entrenamiento es obligatorio**: Los personajes no se pueden usar en partidos hasta que completen un ciclo de entrenamiento completo.
+- **El rango importa**: Intenta llevar a tus jugadores del rango G al menos al rango D+ al principio del juego para obtener un BP competitivo.
+- **Estrategia de posicionamiento**: Equilibra tu escuadra con Delanteros, Centrocampistas y Defensas especializados para maximizar la sinergia.
+- **Gestión de recursos**: Concentra tus materiales de mejora en tus unidades principales de 3 estrellas para evitar el agotamiento de recursos.
+</Callout>
+
+<Section icon={Map} title="La Base: Reroll para Talentos de Élite">
+
+Para **crear un equipo de Blue Lock** que pueda competir en las ligas de alto nivel de 2026, tu viaje comienza incluso antes de jugar tu primer partido. El proceso de reroll es la forma más eficiente de asegurar una ventaja competitiva sin gastar moneda premium al principio. En el meta actual de 2026, comenzar con una alineación subóptima ralentizará significativamente tu progresión a través del World Champion Road.
+
+Cuando inicias el juego, normalmente se te otorga suficiente moneda para dos multi-invocaciones. Tu objetivo es asegurar al menos un personaje de 3 estrellas de primer nivel de estas tiradas. Además, el juego proporciona un ticket garantizado de 3 estrellas. Al combinar estos, deberías tener un mínimo de dos unidades de 3 estrellas para formar la columna vertebral de tu equipo.
+
+| Nivel de Reroll | Resultado Objetivo | Recomendación |
+| :--- | :--- | :--- |
+| **Inicio Élite** | 4+ Personajes de 3 Estrellas | Altamente Recomendado |
+| **Inicio Fuerte** | 3 Personajes de 3 Estrellas | Óptimo para la mayoría |
+| **Inicio Básico** | 2 Personajes de 3 Estrellas | Mínimo aceptable |
+| **Inicio Débil** | 1 Personaje de 3 Estrellas | Considera hacer Reroll |
+
+<Callout type="warning" title="Nota Crítica sobre el Reroll">
+No te conformes con una sola unidad de 3 estrellas. El aumento de dificultad en la mitad del juego requiere una alineación diversa. Si no obtienes al menos dos jugadores únicos de 3 estrellas en tus multi-invocaciones iniciales, es más rápido restablecer tus datos e intentar de nuevo que farmear gemas más tarde.
+</Callout>
+
+</Section>
+
+<Section icon={Target} title="El Ciclo de Entrenamiento: Del Rango G al Rango SS">
+
+Uno de los aspectos más confusos para los recién llegados que intentan **crear un equipo de Blue Lock** es por qué sus personajes recién obtenidos no pueden agregarse al equipo de inmediato. En este juego, los personajes están "bloqueados" en un estado de rango G hasta que pasan por una sesión de Entrenamiento. El entrenamiento es el proceso donde defines las estadísticas de un personaje y "finalizas" su versión para usarla en partidos reales.
+
+**Puntos destacados del video:**
+- Recorrido detallado del sistema de entrenamiento de 24 turnos y asignación de estadísticas.
+- Cómo navegar los partidos de entrenamiento para asegurar un rango final alto.
+- Explicación de la diferencia entre el nivel del personaje y el rango de entrenamiento.
+
+<YouTubeEmbed videoId="xuKpcrILeyE" title="[GUÍA PARA PRINCIPIANTES] LA MEJOR MANERA DE EMPEZAR Y PROGRESAR" />
+
+El proceso de entrenamiento implica una cuenta regresiva de 24 turnos. Cada acción que realizas consume un turno y aumenta estadísticas específicas como Velocidad, Fuerza o Técnica. Tu objetivo es llegar a cero turnos maximizando el Poder de Batalla (BP) del personaje.
+
+<Steps>
+  <Step num="1" title="Selecciona a tu aprendiz">
+    Elige el personaje de 3 estrellas que deseas activar. Asegúrate de tener suficiente estamina antes de comenzar, ya que salir a mitad de la sesión puede resultar en ganancias de estadísticas subóptimas.
+  </Step>
+  <Step num="2" title="Navega por la cuadrícula de 24 turnos">
+    Haz clic en las opciones de entrenamiento para disminuir el contador de turnos de 24 a 0. Enfócate en sesiones de entrenamiento con calificación "Extreme" o "Best" para obtener los multiplicadores de estadísticas más altos.
+  </Step>
+  <Step num="3" title="Gana partidos de entrenamiento">
+    Periódicamente, te verás forzado a participar en partidos. Ganar estos es crucial, ya que proporcionan aumentos masivos de BP y determinan si saltas del rango G al D, C o incluso al rango B en una sola sesión.
+  </Step>
+  <Step num="4" title="Finaliza y compone">
+    Una vez que los turnos llegan a cero, el rango del personaje queda bloqueado (por ejemplo, rango D+). Ahora puedes agregar oficialmente esta "versión entrenada" específica del personaje a tu escuadra.
+  </Step>
+</Steps>
+
+<Callout type="tip" title="Consejo de Equilibrio de Estadísticas">
+Aunque es tentador ir a por todas en Velocidad, una construcción equilibrada suele ser mejor para los principiantes. Busca una calificación "Good" o "Extreme" en entrenamiento muscular y ejercicios tácticos para asegurar que tu jugador no sea superado físicamente en los partidos de mayor nivel.
+</Callout>
+
+</Section>
+
+<Section icon={Swords} title="Composición de la Escuadra y Posicionamiento Estratégico">
+
+Una vez que hayas entrenado a tus jugadores, el siguiente paso para **crear un equipo de Blue Lock** es organizarlos en un equipo funcional. El juego utiliza un sistema de BP para calcular la fuerza total del equipo, pero el posicionamiento es lo que determina cómo se utilizan esas estadísticas en el campo. No puedes usar dos personajes con el mismo nombre en el mismo equipo, por lo que la diversidad en tu alineación es clave.
+
+<CardGrid cols={3}>
+  <Card title="Delanteros (FW)">
+    - Enfocados en **Potencia de Tiro** y **Precisión**
+    - Principales anotadores de goles
+    - Requieren alta Velocidad para romper líneas
+  </Card>
+  <Card title="Centrocampistas (MF)">
+    - Enfocados en **Técnica** y **Estamina**
+    - Enlace entre defensa y ataque
+    - Esenciales para mantener la posesión
+  </Card>
+  <Card title="Defensas (DF)">
+    - Enfocados en **Físico** y **Reacción**
+    - Detienen los avances del oponente
+    - Un BP alto aquí evita goles fáciles
+  </Card>
+</CardGrid>
+
+| Posición | Estadística Principal | Estadística Secundaria | Importancia del Rol |
+| :--- | :--- | :--- | :--- |
+| **Delantero** | Tiro | Velocidad | ★★★★★ |
+| **Centrocampista** | Técnica | Estamina | ★★★★☆ |
+| **Defensa** | Físico | Reacción | ★★★★☆ |
+| **Portero** | Reacción | Físico | ★★★★★ |
+
+<Callout type="success" title="Optimización de BP">
+Comprueba siempre el BP total de tu escuadra antes de entrar en un partido. Si tu BP es al menos 10,000 puntos superior al del oponente, puedes usar con seguridad la función "Skip" para ahorrar tiempo y recoger las recompensas al instante.
+</Callout>
+
+</Section>
+
+<Section icon={Sparkles} title="Progresión Diaria y Mejora de Personajes">
+
+Para mantener un equipo de primer nivel, debes participar en los sistemas de mejora diarios. Más allá del entrenamiento, los personajes tienen niveles base que se pueden aumentar usando materiales recolectados en misiones regulares y en el World Champion Road. Este es un camino de progresión separado que aumenta el "potencial" de tus jugadores durante su próxima sesión de entrenamiento.
+
+<Checklist
+  id="daily-squad-goals"
+  title="Lista de Verificación Diaria 2026:"
+  items={[
+    "Completa 3 ciclos de entrenamiento completos para unidades nuevas o existentes",
+    "Supera todas las etapas diarias de materiales de World Champion Road",
+    "Mejora las unidades principales de 3 estrellas hasta su límite de nivel actual",
+    "Participa en al menos 5 partidos regulares para farmear materiales de BP",
+    "Revisa la tienda Step-Up para obtener tickets de soporte con descuento"
+  ]}
+/>
+
+| Tipo de Material | Fuente Principal | Uso |
+| :--- | :--- | :--- |
+| **Chips de Nivel** | Partidos Regulares | Aumenta el nivel base del personaje |
+| **Tickets de Soporte** | Eventos Step-Up | Desbloquea potenciadores de entrenamiento especiales |
+| **Gemas** | Historia/Misiones | Invocación de nuevos talentos de élite |
+| **Bebidas de Estamina** | Inicio de sesión diario | Recarga la energía de entrenamiento |
+
+<Callout type="info" title="Estrategia de Mejora">
+No disperses demasiado tus recursos. En 2026, el meta favorece a uno o dos "Hyper-Carries" (normalmente Delanteros) apoyados por compañeros decentes en lugar de un equipo perfectamente equilibrado. Maximiza a tu mejor Delantero primero.
+</Callout>
+
+</Section>
+
+<Section icon={Shield} title="Tácticas Avanzadas de Optimización de Escuadra">
+
+A medida que sales de la fase de principiante, notarás que simplemente tener personajes de 3 estrellas no es suficiente. Necesitas optimizar los personajes de "Soporte" utilizados durante la fase de entrenamiento. Estas unidades de soporte proporcionan bonificaciones pasivas que pueden convertir a un jugador estándar de rango D en una potencia de rango SS.
+
+| Tipo de Soporte | Beneficio | Mejor Para |
+| :--- | :--- | :--- |
+| **Potenciadores de Velocidad** | Aumenta la ganancia de Velocidad en un 20% | Extremos y Delanteros |
+| **Expertos Tácticos** | Aumenta la ganancia de Técnica | Creadores de juego/Centrocampistas |
+| **Entrenadores Físicos** | Reduce el consumo de Estamina | Defensas |
+
+<Callout type="warning" title="Evita Errores Comunes">
+Muchos jugadores olvidan actualizar su equipo después de una sesión de entrenamiento exitosa. Si entrenas a un personaje y alcanza un rango superior (por ejemplo, pasando de D a B), debes ir manualmente al menú de Composición de Equipo y reemplazar la antigua versión de rango D con la nueva versión de rango B.
+</Callout>
+
+| Rango | Rango de BP | Dificultad para Lograr |
+| :--- | :--- | :--- |
+| **G a E** | 0 - 5,000 | Automático / Muy Fácil |
+| **D a C** | 5,001 - 15,000 | Entrenamiento Básico |
+| **B a A** | 15,001 - 30,000 | Requiere Unidades de Soporte |
+| **S a SS** | 30,001+ | Gestión de Estadísticas Experta |
+
+</Section>
+
+<Section icon={Trophy} title="Preguntas Frecuentes">
+
+Para ayudarte a **crear un equipo de Blue Lock**, hemos recopilado las preguntas más comunes de la comunidad sobre la progresión inicial y la gestión del equipo.
+
+<FAQ items={[
+  {
+    question: "¿Por qué no puedo ver a mi nuevo personaje de 3 estrellas en el menú del equipo?",
+    answer: "Primero debes completar al menos una sesión de Entrenamiento completa con ese personaje. Hasta que no estén entrenados y se les asigne un rango (como D+), no son elegibles para jugar partidos."
+  },
+  {
+    question: "¿Puedo usar varias versiones de Isagi en el mismo equipo?",
+    answer: "No. Solo puedes usar un personaje con el mismo nombre en la composición de tu escuadra, independientemente de su rango o versión."
+  },
+  {
+    question: "¿Cuál es la forma más rápida de aumentar el BP total de mi equipo?",
+    answer: "La forma más rápida es centrarse en el entrenamiento. Un solo personaje de rango B puede proporcionar más BP que un equipo entero de personajes de rango G. Prioriza el entrenamiento de tus unidades de 3 estrellas de inmediato."
+  },
+  {
+    question: "¿Vale la pena entrenar personajes de 2 estrellas?",
+    answer: "Al principio del juego, sí, si te faltan unidades de 3 estrellas para posiciones específicas como Defensa o Portero. Sin embargo, deben ser reemplazados tan pronto como obtengas alternativas de 3 estrellas."
+  }
+]} />
+
+</Section>
