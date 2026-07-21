@@ -240,8 +240,24 @@
         "file": "build-a-blue-lock-squad-best-players"
       },
       {
+        "slug": "build-a-blue-lock-squad-best-team",
+        "file": "build-a-blue-lock-squad-best-team"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-characters",
+        "file": "build-a-blue-lock-squad-characters"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-player-guide",
+        "file": "build-a-blue-lock-squad-player-guide"
+      },
+      {
         "slug": "build-a-blue-lock-squad-player-tier-list",
         "file": "build-a-blue-lock-squad-player-tier-list"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-strongest-team",
+        "file": "build-a-blue-lock-squad-strongest-team"
       }
     ],
     "rewards": [
@@ -292,6 +308,10 @@
       {
         "slug": "build-a-blue-lock-squad-release-update",
         "file": "build-a-blue-lock-squad-release-update"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-update",
+        "file": "build-a-blue-lock-squad-update"
       }
     ]
   },
@@ -378,8 +398,24 @@
         "file": "build-a-blue-lock-squad-best-players"
       },
       {
+        "slug": "build-a-blue-lock-squad-best-team",
+        "file": "build-a-blue-lock-squad-best-team"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-characters",
+        "file": "build-a-blue-lock-squad-characters"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-player-guide",
+        "file": "build-a-blue-lock-squad-player-guide"
+      },
+      {
         "slug": "build-a-blue-lock-squad-player-tier-list",
         "file": "build-a-blue-lock-squad-player-tier-list"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-strongest-team",
+        "file": "build-a-blue-lock-squad-strongest-team"
       }
     ],
     "rewards": [
@@ -520,8 +556,24 @@
         "file": "build-a-blue-lock-squad-best-players"
       },
       {
+        "slug": "build-a-blue-lock-squad-best-team",
+        "file": "build-a-blue-lock-squad-best-team"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-characters",
+        "file": "build-a-blue-lock-squad-characters"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-player-guide",
+        "file": "build-a-blue-lock-squad-player-guide"
+      },
+      {
         "slug": "build-a-blue-lock-squad-player-tier-list",
         "file": "build-a-blue-lock-squad-player-tier-list"
+      },
+      {
+        "slug": "build-a-blue-lock-squad-strongest-team",
+        "file": "build-a-blue-lock-squad-strongest-team"
       }
     ],
     "rewards": [
