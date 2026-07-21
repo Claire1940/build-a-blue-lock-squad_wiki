@@ -1,11 +1,11 @@
 {
-  "name": "Lucid Blocks Wiki - Crafting, Biomes & Achievements",
-  "short_name": "Lucid Blocks",
-  "description": "Lucid Blocks Wiki covers crafting, biomes, creatures, items, achievements, endings, and survival tips for the surreal voxel sandbox adventure on Steam.",
+  "name": "Build a Blue Lock Squad Wiki - Codes, Units & Guide",
+  "short_name": "Blue Lock Squad",
+  "description": "Build a Blue Lock Squad Wiki provides Roblox codes, character guides, team builds, rankings, and gameplay tips to help players create stronger football squads.",
   "start_url": "/",
   "display": "standalone",
   "orientation": "any",
-  "theme_color": "#1a7a7a",
+  "theme_color": "#0D7FF2",
   "background_color": "#0a0a0a",
   "icons": [
     {
